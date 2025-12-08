@@ -198,6 +198,123 @@
       height: 300px;
     }
 
+    .screenshot-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      margin-top: 20px;
+    }
+
+    .screenshot-item {
+      text-align: center;
+    }
+
+    .screenshot-item img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .screenshot-item img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+    }
+
+    .caption {
+      margin-top: 10px;
+      color: #666;
+      font-size: 0.95em;
+      font-style: italic;
+    }
+
+    .architecture-diagram {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .architecture-diagram img {
+      max-width: 100%;
+      width: 800px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      border: 3px solid #667eea;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .doc-btn {
+      display: inline-block;
+      padding: 18px 40px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      text-decoration: none;
+      border-radius: 50px;
+      font-size: 1.15em;
+      font-weight: bold;
+      box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+      transition: all 0.3s ease;
+      margin-top: 10px;
+    }
+
+    .doc-btn::before {
+      content: '📖 ';
+      margin-right: 8px;
+    }
+
+    .doc-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 15px 40px rgba(102, 126, 234, 0.6);
+    }
+
+    .download-btn {
+      display: inline-block;
+      padding: 20px 45px;
+      background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+      color: white;
+      text-decoration: none;
+      border-radius: 50px;
+      font-size: 1.2em;
+      font-weight: bold;
+      box-shadow: 0 10px 30px rgba(67, 233, 123, 0.4);
+      transition: all 0.3s ease;
+      margin-top: 10px;
+    }
+
+    .download-btn::before {
+      content: '⬇️ ';
+      margin-right: 10px;
+    }
+
+    .download-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 15px 40px rgba(67, 233, 123, 0.6);
+    }
+
+    .postmortem {
+      text-align: left;
+    }
+
+    .postmortem h3 {
+      color: #667eea;
+      font-size: 1.4em;
+      margin-top: 20px;
+      margin-bottom: 12px;
+    }
+
+    .postmortem h3:first-child {
+      margin-top: 0;
+    }
+
+    .postmortem p {
+      margin-bottom: 15px;
+    }
+
     .features {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
