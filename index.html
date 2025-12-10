@@ -200,7 +200,7 @@
 
     .screenshot-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: repeat(2, 1fr);
       gap: 25px;
       margin-top: 20px;
     }
@@ -433,7 +433,7 @@
     <div class="card video-section">
       <h2>Trailer Video</h2>
       <p>Check out our latest development progress and see the game in action!</p>
-      <a href="https://youtu.be/e8CuPwM648Y" class="video-btn" target="_blank">Watch Progress Video</a>
+      <a href="https://youtu.be/t_KHSOwrSJ8" class="video-btn" target="_blank">Watch Progress Video</a>
     </div>
 
     <div class="card">
@@ -478,11 +478,21 @@
           <li>Run: <code style="background: #e9ecef; padding: 4px 8px; border-radius: 4px; font-family: monospace; color: #d63384;">dub run -- game.json</code></li>
         </ol>
       </div>
+      <a href="engine" class="download-btn" download>Download Binary</a>
+      <div style="margin-top: 25px; padding: 20px; background: #f8f9fa; border-radius: 12px; border-left: 4px solid #667eea;">
+        <h3 style="color: #667eea; font-size: 1.2em; margin-bottom: 12px;">How to Compile Binary:</h3>
+        <ol style="color: #555; font-size: 1.05em; line-height: 1.8; padding-left: 20px;">
+          <li>Run: <code style="background: #e9ecef; padding: 4px 8px; border-radius: 4px; font-family: monospace; color: #d63384;">dub build</code></li>
+          <li><code style="background: #e9ecef; padding: 4px 8px; border-radius: 4px; font-family: monospace; color: #d63384;">engine</code> is the compiled binary</li>
+        </ol>
+      </div>
     </div>
 
     <div class="card">
       <h2>Post Mortem</h2>
       <div class="postmortem">
+        <p>We are happy with the way we organized the canvases and editors. It greatly improved modularity and organization, as there were a few variations of canvases and editors required for this engine. Additionally, we found great success with our path abstraction It is a relatively simple abstraction, but it made implementing balloon scripting (pathing, popping, splitting) very smooth, and it is definitely something to carry-on to future projects where applicable.<p> 
+        
         <p>In terms of next steps, the most immediate area for improvement is the delicate design of map difficulty and balancing. Currently the game functions a bit like a sandbox: if you place enough towers you can usually brute-force a win. We want to evolve this into a more puzzle-like experience where maps are crafted with specific intended solutions—limiting the number of viable strategies so players have to think about placement and synergies instead of spamming units.</p>
         
         <p>Another area we want to improve is mid-game tower upgrading. Allowing players to enhance towers after placement would add a new layer of strategy and progression, giving the game a sense of escalation rather than a static defense setup. Implementing this system would require designing upgrade paths, costs, and effects that interact meaningfully with existing mechanics, rather than simply increasing raw damage. Ideally, upgrades would present players with interesting trade-offs—whether to invest in improving a few core towers or spread resources across many weaker ones—and this could create more tension and planning within each run.</p>
