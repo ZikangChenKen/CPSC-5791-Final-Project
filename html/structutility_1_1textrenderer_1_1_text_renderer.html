@@ -94,19 +94,200 @@ $(function(){initNavTree('structutility_1_1textrenderer_1_1_text_renderer.html',
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a4fc1d7ca652a9f9296bdc050efae8673" id="r_a4fc1d7ca652a9f9296bdc050efae8673"><td class="memItemLeft" align="right" valign="top"><a id="a4fc1d7ca652a9f9296bdc050efae8673" name="a4fc1d7ca652a9f9296bdc050efae8673"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>renderText</b> (SDL_Renderer *renderer, string text, float x, float y, float scale=1.0)</td></tr>
-<tr class="memitem:a6878ed17ebf45e1f8a77865af2376e33" id="r_a6878ed17ebf45e1f8a77865af2376e33"><td class="memItemLeft" align="right" valign="top"><a id="a6878ed17ebf45e1f8a77865af2376e33" name="a6878ed17ebf45e1f8a77865af2376e33"></a>
-static float&#160;</td><td class="memItemRight" valign="bottom"><b>drawChar</b> (SDL_Renderer *renderer, char c, float x, float y, float scale)</td></tr>
-<tr class="memitem:aaa87d2a6add87da8c5bc7102afa04fdf" id="r_aaa87d2a6add87da8c5bc7102afa04fdf"><td class="memItemLeft" align="right" valign="top"><a id="aaa87d2a6add87da8c5bc7102afa04fdf" name="aaa87d2a6add87da8c5bc7102afa04fdf"></a>
-static float&#160;</td><td class="memItemRight" valign="bottom"><b>getCharWidth</b> (char c, float scale)</td></tr>
-<tr class="memitem:afd0f76a9c73f4f6b25c507777e741565" id="r_afd0f76a9c73f4f6b25c507777e741565"><td class="memItemLeft" align="right" valign="top"><a id="afd0f76a9c73f4f6b25c507777e741565" name="afd0f76a9c73f4f6b25c507777e741565"></a>
-static float&#160;</td><td class="memItemRight" valign="bottom"><b>getCharHeight</b> (char c, float scale)</td></tr>
-<tr class="memitem:a892ee6d2c20d1e6f4d82c0360e1d2aa7" id="r_a892ee6d2c20d1e6f4d82c0360e1d2aa7"><td class="memItemLeft" align="right" valign="top"><a id="a892ee6d2c20d1e6f4d82c0360e1d2aa7" name="a892ee6d2c20d1e6f4d82c0360e1d2aa7"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>drawPixel</b> (SDL_Renderer *renderer, float x, float y, float size)</td></tr>
+<tr class="memitem:a4fc1d7ca652a9f9296bdc050efae8673" id="r_a4fc1d7ca652a9f9296bdc050efae8673"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fc1d7ca652a9f9296bdc050efae8673">renderText</a> (SDL_Renderer *renderer, string text, float x, float y, float scale=1.0)</td></tr>
+<tr class="memitem:a6878ed17ebf45e1f8a77865af2376e33" id="r_a6878ed17ebf45e1f8a77865af2376e33"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6878ed17ebf45e1f8a77865af2376e33">drawChar</a> (SDL_Renderer *renderer, char c, float x, float y, float scale)</td></tr>
+<tr class="memitem:aaa87d2a6add87da8c5bc7102afa04fdf" id="r_aaa87d2a6add87da8c5bc7102afa04fdf"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa87d2a6add87da8c5bc7102afa04fdf">getCharWidth</a> (char c, float scale)</td></tr>
+<tr class="memitem:afd0f76a9c73f4f6b25c507777e741565" id="r_afd0f76a9c73f4f6b25c507777e741565"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd0f76a9c73f4f6b25c507777e741565">getCharHeight</a> (char c, float scale)</td></tr>
+<tr class="memitem:a892ee6d2c20d1e6f4d82c0360e1d2aa7" id="r_a892ee6d2c20d1e6f4d82c0360e1d2aa7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a892ee6d2c20d1e6f4d82c0360e1d2aa7">drawPixel</a> (SDL_Renderer *renderer, float x, float y, float size)</td></tr>
 </table>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a6878ed17ebf45e1f8a77865af2376e33" name="a6878ed17ebf45e1f8a77865af2376e33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6878ed17ebf45e1f8a77865af2376e33">&#9670;&#160;</a></span>drawChar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float utility::textrenderer::TextRenderer::drawChar </td>
+          <td>(</td>
+          <td class="paramtype">SDL_Renderer *</td>          <td class="paramname"><span class="paramname"><em>renderer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>scale</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a892ee6d2c20d1e6f4d82c0360e1d2aa7" name="a892ee6d2c20d1e6f4d82c0360e1d2aa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a892ee6d2c20d1e6f4d82c0360e1d2aa7">&#9670;&#160;</a></span>drawPixel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void utility::textrenderer::TextRenderer::drawPixel </td>
+          <td>(</td>
+          <td class="paramtype">SDL_Renderer *</td>          <td class="paramname"><span class="paramname"><em>renderer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd0f76a9c73f4f6b25c507777e741565" name="afd0f76a9c73f4f6b25c507777e741565"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd0f76a9c73f4f6b25c507777e741565">&#9670;&#160;</a></span>getCharHeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float utility::textrenderer::TextRenderer::getCharHeight </td>
+          <td>(</td>
+          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>scale</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaa87d2a6add87da8c5bc7102afa04fdf" name="aaa87d2a6add87da8c5bc7102afa04fdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa87d2a6add87da8c5bc7102afa04fdf">&#9670;&#160;</a></span>getCharWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float utility::textrenderer::TextRenderer::getCharWidth </td>
+          <td>(</td>
+          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>scale</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4fc1d7ca652a9f9296bdc050efae8673" name="a4fc1d7ca652a9f9296bdc050efae8673"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fc1d7ca652a9f9296bdc050efae8673">&#9670;&#160;</a></span>renderText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void utility::textrenderer::TextRenderer::renderText </td>
+          <td>(</td>
+          <td class="paramtype">SDL_Renderer *</td>          <td class="paramname"><span class="paramname"><em>renderer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>text</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>scale</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1.0</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>utility/<b>textrenderer.d</b></li>
+<li>utility/<a class="el" href="textrenderer_8d.html">textrenderer.d</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -121,7 +302,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>drawPixel</b> 
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>utility</b></li><li class="navelem"><b>textrenderer</b></li><li class="navelem"><a href="structutility_1_1textrenderer_1_1_text_renderer.html">TextRenderer</a></li>
+    <li class="navelem"><b>utility</b></li><li class="navelem"><a href="namespaceutility_1_1textrenderer.html">textrenderer</a></li><li class="navelem"><a href="structutility_1_1textrenderer_1_1_text_renderer.html">TextRenderer</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

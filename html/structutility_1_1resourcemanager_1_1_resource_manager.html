@@ -94,13 +94,149 @@ $(function(){initNavTree('structutility_1_1resourcemanager_1_1_resource_manager.
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a8d7c46d5012a0699fdbba13ad29e6fb2" id="r_a8d7c46d5012a0699fdbba13ad29e6fb2"><td class="memItemLeft" align="right" valign="top"><a id="a8d7c46d5012a0699fdbba13ad29e6fb2" name="a8d7c46d5012a0699fdbba13ad29e6fb2"></a>
-static <a class="el" href="structutility_1_1resourcemanager_1_1_resource_manager.html">ResourceManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getInstance</b> ()</td></tr>
-<tr class="memitem:aef86eb5e55733590345cf29f30c0a764" id="r_aef86eb5e55733590345cf29f30c0a764"><td class="memItemLeft" align="right" valign="top"><a id="aef86eb5e55733590345cf29f30c0a764" name="aef86eb5e55733590345cf29f30c0a764"></a>
-static SDL_Texture *&#160;</td><td class="memItemRight" valign="bottom"><b>loadImageResource</b> (SDL_Renderer *renderer, string filename)</td></tr>
+<tr class="memitem:a8d7c46d5012a0699fdbba13ad29e6fb2" id="r_a8d7c46d5012a0699fdbba13ad29e6fb2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structutility_1_1resourcemanager_1_1_resource_manager.html">ResourceManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d7c46d5012a0699fdbba13ad29e6fb2">getInstance</a> ()</td></tr>
+<tr class="memitem:aef86eb5e55733590345cf29f30c0a764" id="r_aef86eb5e55733590345cf29f30c0a764"><td class="memItemLeft" align="right" valign="top">static SDL_Texture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef86eb5e55733590345cf29f30c0a764">loadImageResource</a> (SDL_Renderer *renderer, string filename)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-static-methods" class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a858dcd2868d774e3f5e43d7a6ad3f1b5" id="r_a858dcd2868d774e3f5e43d7a6ad3f1b5"><td class="memItemLeft" align="right" valign="top">static SDL_Texture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a858dcd2868d774e3f5e43d7a6ad3f1b5">createTexture</a> (SDL_Renderer *renderer, SDL_Surface *surface)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a43f0458d3ddc9d7c50b7fcb21fd45013" id="r_a43f0458d3ddc9d7c50b7fcb21fd45013"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structutility_1_1resourcemanager_1_1_resource_manager.html">ResourceManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43f0458d3ddc9d7c50b7fcb21fd45013">mInstance</a></td></tr>
+<tr class="memitem:abaee656317b89dcfc70e13d325e53a75" id="r_abaee656317b89dcfc70e13d325e53a75"><td class="memItemLeft" align="right" valign="top">static SDL_Texture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaee656317b89dcfc70e13d325e53a75">mImageResourceMap</a></td></tr>
 </table>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a858dcd2868d774e3f5e43d7a6ad3f1b5" name="a858dcd2868d774e3f5e43d7a6ad3f1b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a858dcd2868d774e3f5e43d7a6ad3f1b5">&#9670;&#160;</a></span>createTexture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_Texture * utility::resourcemanager::ResourceManager::createTexture </td>
+          <td>(</td>
+          <td class="paramtype">SDL_Renderer *</td>          <td class="paramname"><span class="paramname"><em>renderer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SDL_Surface *</td>          <td class="paramname"><span class="paramname"><em>surface</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d7c46d5012a0699fdbba13ad29e6fb2" name="a8d7c46d5012a0699fdbba13ad29e6fb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d7c46d5012a0699fdbba13ad29e6fb2">&#9670;&#160;</a></span>getInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structutility_1_1resourcemanager_1_1_resource_manager.html">ResourceManager</a> * utility::resourcemanager::ResourceManager::getInstance </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef86eb5e55733590345cf29f30c0a764" name="aef86eb5e55733590345cf29f30c0a764"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef86eb5e55733590345cf29f30c0a764">&#9670;&#160;</a></span>loadImageResource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_Texture * utility::resourcemanager::ResourceManager::loadImageResource </td>
+          <td>(</td>
+          <td class="paramtype">SDL_Renderer *</td>          <td class="paramname"><span class="paramname"><em>renderer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="abaee656317b89dcfc70e13d325e53a75" name="abaee656317b89dcfc70e13d325e53a75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaee656317b89dcfc70e13d325e53a75">&#9670;&#160;</a></span>mImageResourceMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_Texture* utility::resourcemanager::ResourceManager::mImageResourceMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a43f0458d3ddc9d7c50b7fcb21fd45013" name="a43f0458d3ddc9d7c50b7fcb21fd45013"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43f0458d3ddc9d7c50b7fcb21fd45013">&#9670;&#160;</a></span>mInstance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structutility_1_1resourcemanager_1_1_resource_manager.html">ResourceManager</a>* utility::resourcemanager::ResourceManager::mInstance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>utility/<b>resourcemanager.d</b></li>
+<li>utility/<a class="el" href="resourcemanager_8d.html">resourcemanager.d</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -115,7 +251,7 @@ static SDL_Texture *&#160;</td><td class="memItemRight" valign="bottom"><b>loadI
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>utility</b></li><li class="navelem"><b>resourcemanager</b></li><li class="navelem"><a href="structutility_1_1resourcemanager_1_1_resource_manager.html">ResourceManager</a></li>
+    <li class="navelem"><b>utility</b></li><li class="navelem"><a href="namespaceutility_1_1resourcemanager.html">resourcemanager</a></li><li class="navelem"><a href="structutility_1_1resourcemanager_1_1_resource_manager.html">ResourceManager</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

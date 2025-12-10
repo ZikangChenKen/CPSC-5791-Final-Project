@@ -104,80 +104,1055 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1e7718d624f6d2704335e18de5f32f43" id="r_a1e7718d624f6d2704335e18de5f32f43"><td class="memItemLeft" align="right" valign="top"><a id="a1e7718d624f6d2704335e18de5f32f43" name="a1e7718d624f6d2704335e18de5f32f43"></a>
-TowerScript&#160;</td><td class="memItemRight" valign="bottom"><b>delegate</b> (long, long)[string] mTowerScripts</td></tr>
-<tr class="memitem:a9a603c9be683c1326b053439caa6fa41" id="r_a9a603c9be683c1326b053439caa6fa41"><td class="memItemLeft" align="right" valign="top"><a id="a9a603c9be683c1326b053439caa6fa41" name="a9a603c9be683c1326b053439caa6fa41"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>this</b> (GameApplication *app, SDL_Renderer *renderer, string sceneFilepath, string levelFilepath)</td></tr>
-<tr class="memitem:a1ac81387b459611413c172a5717fec17" id="r_a1ac81387b459611413c172a5717fec17"><td class="memItemLeft" align="right" valign="top"><a id="a1ac81387b459611413c172a5717fec17" name="a1ac81387b459611413c172a5717fec17"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>loadLevelData</b> (string filepath)</td></tr>
-<tr class="memitem:a8c2b636a37809cdee48e8185b693e953" id="r_a8c2b636a37809cdee48e8185b693e953"><td class="memItemLeft" align="right" valign="top"><a id="a8c2b636a37809cdee48e8185b693e953" name="a8c2b636a37809cdee48e8185b693e953"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>loadSceneData</b> (string filepath)</td></tr>
-<tr class="memitem:a60239114ee9582373f3a8a08c7fb8ee5" id="r_a60239114ee9582373f3a8a08c7fb8ee5"><td class="memItemLeft" align="right" valign="top"><a id="a60239114ee9582373f3a8a08c7fb8ee5" name="a60239114ee9582373f3a8a08c7fb8ee5"></a>
-override void&#160;</td><td class="memItemRight" valign="bottom"><b>handleInput</b> (SDL_Event event)</td></tr>
-<tr class="memitem:a4738098f0242103e5b224aae05d3f994" id="r_a4738098f0242103e5b224aae05d3f994"><td class="memItemLeft" align="right" valign="top"><a id="a4738098f0242103e5b224aae05d3f994" name="a4738098f0242103e5b224aae05d3f994"></a>
-override void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> ()</td></tr>
-<tr class="memitem:a875f9b3661d4791f17381e646d6109ba" id="r_a875f9b3661d4791f17381e646d6109ba"><td class="memItemLeft" align="right" valign="top"><a id="a875f9b3661d4791f17381e646d6109ba" name="a875f9b3661d4791f17381e646d6109ba"></a>
-override void&#160;</td><td class="memItemRight" valign="bottom"><b>render</b> ()</td></tr>
-<tr class="memitem:a0d93d607018d0a2e4e97eb74914989bf" id="r_a0d93d607018d0a2e4e97eb74914989bf"><td class="memItemLeft" align="right" valign="top"><a id="a0d93d607018d0a2e4e97eb74914989bf" name="a0d93d607018d0a2e4e97eb74914989bf"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>renderGameData</b> ()</td></tr>
-<tr class="memitem:ae438072eba7b9a8310146fcebcdb6bef" id="r_ae438072eba7b9a8310146fcebcdb6bef"><td class="memItemLeft" align="right" valign="top"><a id="ae438072eba7b9a8310146fcebcdb6bef" name="ae438072eba7b9a8310146fcebcdb6bef"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>shouldReturnToMenu</b> ()</td></tr>
-<tr class="memitem:aae2f071fb244d7f46c012059732ffb56" id="r_aae2f071fb244d7f46c012059732ffb56"><td class="memItemLeft" align="right" valign="top"><a id="aae2f071fb244d7f46c012059732ffb56" name="aae2f071fb244d7f46c012059732ffb56"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>makeBalloon</b> (int colorIdx, float x, float y, <a class="el" href="classutility_1_1path_1_1_path.html">Path</a> path, float distAlongPath=0.0)</td></tr>
-<tr class="memitem:a936f099374e0855bdd3f98fdbc82fed2" id="r_a936f099374e0855bdd3f98fdbc82fed2"><td class="memItemLeft" align="right" valign="top"><a id="a936f099374e0855bdd3f98fdbc82fed2" name="a936f099374e0855bdd3f98fdbc82fed2"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>makeTower</b> (int towerIdx, float x, float y)</td></tr>
-<tr class="memitem:a8d6ae366741807343e17fc17f1b71600" id="r_a8d6ae366741807343e17fc17f1b71600"><td class="memItemLeft" align="right" valign="top"><a id="a8d6ae366741807343e17fc17f1b71600" name="a8d6ae366741807343e17fc17f1b71600"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>makeBullet</b> (int bulletIdx, float x, float y, size_t targetId)</td></tr>
-<tr class="memitem:a1f4d0c73babc65e5ba71a6a80bc933b7" id="r_a1f4d0c73babc65e5ba71a6a80bc933b7"><td class="memItemLeft" align="right" valign="top"><a id="a1f4d0c73babc65e5ba71a6a80bc933b7" name="a1f4d0c73babc65e5ba71a6a80bc933b7"></a>
-BalloonScript&#160;</td><td class="memItemRight" valign="bottom"><b>generateBalloonScript</b> (string name, <a class="el" href="classutility_1_1path_1_1_path.html">Path</a> path, float distAlongPath)</td></tr>
-<tr class="memitem:a790424469e69bcee40be83cf46857067" id="r_a790424469e69bcee40be83cf46857067"><td class="memItemLeft" align="right" valign="top"><a id="a790424469e69bcee40be83cf46857067" name="a790424469e69bcee40be83cf46857067"></a>
-TowerScript&#160;</td><td class="memItemRight" valign="bottom"><b>generateTowerScript</b> (string name)</td></tr>
-<tr class="memitem:a96765a5428afcf9481090957d6d5ae93" id="r_a96765a5428afcf9481090957d6d5ae93"><td class="memItemLeft" align="right" valign="top"><a id="a96765a5428afcf9481090957d6d5ae93" name="a96765a5428afcf9481090957d6d5ae93"></a>
-BulletScript&#160;</td><td class="memItemRight" valign="bottom"><b>generateBulletScript</b> (string name, size_t targetId)</td></tr>
-<tr class="memitem:ad2ed61d095e05024b2136cf1dc825cde" id="r_ad2ed61d095e05024b2136cf1dc825cde"><td class="memItemLeft" align="right" valign="top"><a id="ad2ed61d095e05024b2136cf1dc825cde" name="ad2ed61d095e05024b2136cf1dc825cde"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>destroyBalloon</b> (GameObject balloon)</td></tr>
-<tr class="memitem:a7a62b8b27833e690601c2608e2ac7b70" id="r_a7a62b8b27833e690601c2608e2ac7b70"><td class="memItemLeft" align="right" valign="top"><a id="a7a62b8b27833e690601c2608e2ac7b70" name="a7a62b8b27833e690601c2608e2ac7b70"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>destroyBullet</b> (GameObject bullet)</td></tr>
-<tr class="memitem:a657e2023968ce29f795cab5b02767cea" id="r_a657e2023968ce29f795cab5b02767cea"><td class="memItemLeft" align="right" valign="top"><a id="a657e2023968ce29f795cab5b02767cea" name="a657e2023968ce29f795cab5b02767cea"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>getBmpFilepath</b> (string category)</td></tr>
-<tr class="memitem:a94dee751b664e1825b8ff7d4a49441fd" id="r_a94dee751b664e1825b8ff7d4a49441fd"><td class="memItemLeft" align="right" valign="top"><a id="a94dee751b664e1825b8ff7d4a49441fd" name="a94dee751b664e1825b8ff7d4a49441fd"></a>
-SDL_FRect *&#160;</td><td class="memItemRight" valign="bottom"><b>getSelection</b> (string category, string name)</td></tr>
-<tr class="memitem:a312f9953298b6ed868fa9550b9b68d2a" id="r_a312f9953298b6ed868fa9550b9b68d2a"><td class="memItemLeft" align="right" valign="top"><a id="a312f9953298b6ed868fa9550b9b68d2a" name="a312f9953298b6ed868fa9550b9b68d2a"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>getNearestBalloon</b> (Vec2f position, float range)</td></tr>
-<tr class="memitem:a85391e01569d3968ed67e2baf1f457a3" id="r_a85391e01569d3968ed67e2baf1f457a3"><td class="memItemLeft" align="right" valign="top"><a id="a85391e01569d3968ed67e2baf1f457a3" name="a85391e01569d3968ed67e2baf1f457a3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>spawnBullet</b> (GameObject tower, GameObject target)</td></tr>
-<tr class="memitem:acf9e296a216365a30e47bb65680f9401" id="r_acf9e296a216365a30e47bb65680f9401"><td class="memItemLeft" align="right" valign="top"><a id="acf9e296a216365a30e47bb65680f9401" name="acf9e296a216365a30e47bb65680f9401"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>modifyMoney</b> (int delta)</td></tr>
-<tr class="memitem:a0bee0cf95ba0b67942e5fa3c07075d78" id="r_a0bee0cf95ba0b67942e5fa3c07075d78"><td class="memItemLeft" align="right" valign="top"><a id="a0bee0cf95ba0b67942e5fa3c07075d78" name="a0bee0cf95ba0b67942e5fa3c07075d78"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>canAffordTower</b> (int towerIdx)</td></tr>
-<tr class="memitem:adfd46830086a36ca62f3228aa401a30d" id="r_adfd46830086a36ca62f3228aa401a30d"><td class="memItemLeft" align="right" valign="top"><a id="adfd46830086a36ca62f3228aa401a30d" name="adfd46830086a36ca62f3228aa401a30d"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>modifyHealth</b> (int delta)</td></tr>
-<tr class="memitem:ad25938e44846c30542d85876c1df8103" id="r_ad25938e44846c30542d85876c1df8103"><td class="memItemLeft" align="right" valign="top"><a id="ad25938e44846c30542d85876c1df8103" name="ad25938e44846c30542d85876c1df8103"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isWaveReady</b> ()</td></tr>
-<tr class="memitem:a17e9abed3c8d833b2d5e8c92c7a1caa7" id="r_a17e9abed3c8d833b2d5e8c92c7a1caa7"><td class="memItemLeft" align="right" valign="top"><a id="a17e9abed3c8d833b2d5e8c92c7a1caa7" name="a17e9abed3c8d833b2d5e8c92c7a1caa7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>startWave</b> ()</td></tr>
+<tr class="memitem:a1e7718d624f6d2704335e18de5f32f43" id="r_a1e7718d624f6d2704335e18de5f32f43"><td class="memItemLeft" align="right" valign="top">TowerScript&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e7718d624f6d2704335e18de5f32f43">delegate</a> (long, long)[string] mTowerScripts</td></tr>
+<tr class="memitem:a9a603c9be683c1326b053439caa6fa41" id="r_a9a603c9be683c1326b053439caa6fa41"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a603c9be683c1326b053439caa6fa41">this</a> (GameApplication *<a class="el" href="namespaceapp.html">app</a>, SDL_Renderer *renderer, string sceneFilepath, string levelFilepath)</td></tr>
+<tr class="memitem:a1ac81387b459611413c172a5717fec17" id="r_a1ac81387b459611413c172a5717fec17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ac81387b459611413c172a5717fec17">loadLevelData</a> (string filepath)</td></tr>
+<tr class="memitem:a8c2b636a37809cdee48e8185b693e953" id="r_a8c2b636a37809cdee48e8185b693e953"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c2b636a37809cdee48e8185b693e953">loadSceneData</a> (string filepath)</td></tr>
+<tr class="memitem:a60239114ee9582373f3a8a08c7fb8ee5" id="r_a60239114ee9582373f3a8a08c7fb8ee5"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60239114ee9582373f3a8a08c7fb8ee5">handleInput</a> (SDL_Event event)</td></tr>
+<tr class="memitem:a4738098f0242103e5b224aae05d3f994" id="r_a4738098f0242103e5b224aae05d3f994"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4738098f0242103e5b224aae05d3f994">update</a> ()</td></tr>
+<tr class="memitem:a875f9b3661d4791f17381e646d6109ba" id="r_a875f9b3661d4791f17381e646d6109ba"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a875f9b3661d4791f17381e646d6109ba">render</a> ()</td></tr>
+<tr class="memitem:a0d93d607018d0a2e4e97eb74914989bf" id="r_a0d93d607018d0a2e4e97eb74914989bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d93d607018d0a2e4e97eb74914989bf">renderGameData</a> ()</td></tr>
+<tr class="memitem:ae438072eba7b9a8310146fcebcdb6bef" id="r_ae438072eba7b9a8310146fcebcdb6bef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae438072eba7b9a8310146fcebcdb6bef">shouldReturnToMenu</a> ()</td></tr>
+<tr class="memitem:aae2f071fb244d7f46c012059732ffb56" id="r_aae2f071fb244d7f46c012059732ffb56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae2f071fb244d7f46c012059732ffb56">makeBalloon</a> (int colorIdx, float <a class="el" href="namespaceutility_1_1vec2.html#ae18e9afdc92e42ad9cf810897df89b29">x</a>, float <a class="el" href="namespaceutility_1_1vec2.html#aaf0493e4c2b17b7d3ad16bb4486a4db2">y</a>, <a class="el" href="classutility_1_1path_1_1_path.html">Path</a> path, float distAlongPath=0.0)</td></tr>
+<tr class="memitem:a936f099374e0855bdd3f98fdbc82fed2" id="r_a936f099374e0855bdd3f98fdbc82fed2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a936f099374e0855bdd3f98fdbc82fed2">makeTower</a> (int towerIdx, float <a class="el" href="namespaceutility_1_1vec2.html#ae18e9afdc92e42ad9cf810897df89b29">x</a>, float <a class="el" href="namespaceutility_1_1vec2.html#aaf0493e4c2b17b7d3ad16bb4486a4db2">y</a>)</td></tr>
+<tr class="memitem:a8d6ae366741807343e17fc17f1b71600" id="r_a8d6ae366741807343e17fc17f1b71600"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d6ae366741807343e17fc17f1b71600">makeBullet</a> (int bulletIdx, float <a class="el" href="namespaceutility_1_1vec2.html#ae18e9afdc92e42ad9cf810897df89b29">x</a>, float <a class="el" href="namespaceutility_1_1vec2.html#aaf0493e4c2b17b7d3ad16bb4486a4db2">y</a>, size_t targetId)</td></tr>
+<tr class="memitem:a1f4d0c73babc65e5ba71a6a80bc933b7" id="r_a1f4d0c73babc65e5ba71a6a80bc933b7"><td class="memItemLeft" align="right" valign="top">BalloonScript&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f4d0c73babc65e5ba71a6a80bc933b7">generateBalloonScript</a> (string name, <a class="el" href="classutility_1_1path_1_1_path.html">Path</a> path, float distAlongPath)</td></tr>
+<tr class="memitem:a790424469e69bcee40be83cf46857067" id="r_a790424469e69bcee40be83cf46857067"><td class="memItemLeft" align="right" valign="top">TowerScript&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a790424469e69bcee40be83cf46857067">generateTowerScript</a> (string name)</td></tr>
+<tr class="memitem:a96765a5428afcf9481090957d6d5ae93" id="r_a96765a5428afcf9481090957d6d5ae93"><td class="memItemLeft" align="right" valign="top">BulletScript&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96765a5428afcf9481090957d6d5ae93">generateBulletScript</a> (string name, size_t targetId)</td></tr>
+<tr class="memitem:ad2ed61d095e05024b2136cf1dc825cde" id="r_ad2ed61d095e05024b2136cf1dc825cde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2ed61d095e05024b2136cf1dc825cde">destroyBalloon</a> (GameObject balloon)</td></tr>
+<tr class="memitem:a7a62b8b27833e690601c2608e2ac7b70" id="r_a7a62b8b27833e690601c2608e2ac7b70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a62b8b27833e690601c2608e2ac7b70">destroyBullet</a> (GameObject bullet)</td></tr>
+<tr class="memitem:a657e2023968ce29f795cab5b02767cea" id="r_a657e2023968ce29f795cab5b02767cea"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a657e2023968ce29f795cab5b02767cea">getBmpFilepath</a> (string category)</td></tr>
+<tr class="memitem:a94dee751b664e1825b8ff7d4a49441fd" id="r_a94dee751b664e1825b8ff7d4a49441fd"><td class="memItemLeft" align="right" valign="top">SDL_FRect *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94dee751b664e1825b8ff7d4a49441fd">getSelection</a> (string category, string name)</td></tr>
+<tr class="memitem:a312f9953298b6ed868fa9550b9b68d2a" id="r_a312f9953298b6ed868fa9550b9b68d2a"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a312f9953298b6ed868fa9550b9b68d2a">getNearestBalloon</a> (<a class="el" href="namespaceutility_1_1vec2.html#adbe4a6a37fb7cbd1d84c43e59e79a79e">Vec2f</a> position, float range)</td></tr>
+<tr class="memitem:a85391e01569d3968ed67e2baf1f457a3" id="r_a85391e01569d3968ed67e2baf1f457a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85391e01569d3968ed67e2baf1f457a3">spawnBullet</a> (GameObject tower, GameObject <a class="el" href="namespacescripts_1_1bullet.html#ab3d48f33f68ef02a55ae40341f683f65">target</a>)</td></tr>
+<tr class="memitem:acf9e296a216365a30e47bb65680f9401" id="r_acf9e296a216365a30e47bb65680f9401"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf9e296a216365a30e47bb65680f9401">modifyMoney</a> (int delta)</td></tr>
+<tr class="memitem:a0bee0cf95ba0b67942e5fa3c07075d78" id="r_a0bee0cf95ba0b67942e5fa3c07075d78"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bee0cf95ba0b67942e5fa3c07075d78">canAffordTower</a> (int towerIdx)</td></tr>
+<tr class="memitem:adfd46830086a36ca62f3228aa401a30d" id="r_adfd46830086a36ca62f3228aa401a30d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfd46830086a36ca62f3228aa401a30d">modifyHealth</a> (int delta)</td></tr>
+<tr class="memitem:ad25938e44846c30542d85876c1df8103" id="r_ad25938e44846c30542d85876c1df8103"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad25938e44846c30542d85876c1df8103">isWaveReady</a> ()</td></tr>
+<tr class="memitem:a17e9abed3c8d833b2d5e8c92c7a1caa7" id="r_a17e9abed3c8d833b2d5e8c92c7a1caa7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17e9abed3c8d833b2d5e8c92c7a1caa7">startWave</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aa7cdb5f9cb64791cba382d2ae57ca9b6" id="r_aa7cdb5f9cb64791cba382d2ae57ca9b6"><td class="memItemLeft" align="right" valign="top"><a id="aa7cdb5f9cb64791cba382d2ae57ca9b6" name="aa7cdb5f9cb64791cba382d2ae57ca9b6"></a>
-<a class="el" href="classeditor_1_1gameplayeditor_1_1_gameplay_editor.html">GameplayEditor</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mGameplayEditor</b></td></tr>
-<tr class="memitem:a268333ac7e85a14b7930a580c7866d7b" id="r_a268333ac7e85a14b7930a580c7866d7b"><td class="memItemLeft" align="right" valign="top"><a id="a268333ac7e85a14b7930a580c7866d7b" name="a268333ac7e85a14b7930a580c7866d7b"></a>
-<a class="el" href="classcanvas_1_1gameplaycanvas_1_1_gameplay_canvas.html">GameplayCanvas</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mGameplayCanvas</b></td></tr>
-<tr class="memitem:a5ea337cf3e7dcf8f3e46f396952e1de1" id="r_a5ea337cf3e7dcf8f3e46f396952e1de1"><td class="memItemLeft" align="right" valign="top"><a id="a5ea337cf3e7dcf8f3e46f396952e1de1" name="a5ea337cf3e7dcf8f3e46f396952e1de1"></a>
-GameObject[]&#160;</td><td class="memItemRight" valign="bottom"><b>mGameObjects</b></td></tr>
-<tr class="memitem:a151b646a10ec46e718a668edd7e77ce6" id="r_a151b646a10ec46e718a668edd7e77ce6"><td class="memItemLeft" align="right" valign="top"><a id="a151b646a10ec46e718a668edd7e77ce6" name="a151b646a10ec46e718a668edd7e77ce6"></a>
-bool[size_t]&#160;</td><td class="memItemRight" valign="bottom"><b>mToBeRemoved</b></td></tr>
-<tr class="memitem:a615b9a63fb18dc29935e40a78ff297ac" id="r_a615b9a63fb18dc29935e40a78ff297ac"><td class="memItemLeft" align="right" valign="top"><a id="a615b9a63fb18dc29935e40a78ff297ac" name="a615b9a63fb18dc29935e40a78ff297ac"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>mReturnToMenu</b></td></tr>
-<tr class="memitem:afb6c8d8f858230e49c454a400cbb0f2e" id="r_afb6c8d8f858230e49c454a400cbb0f2e"><td class="memItemLeft" align="right" valign="top"><a id="afb6c8d8f858230e49c454a400cbb0f2e" name="afb6c8d8f858230e49c454a400cbb0f2e"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>mGameOver</b></td></tr>
-<tr class="memitem:a5d2b2fb6c7ead222d65dae45e75a0317" id="r_a5d2b2fb6c7ead222d65dae45e75a0317"><td class="memItemLeft" align="right" valign="top"><a id="a5d2b2fb6c7ead222d65dae45e75a0317" name="a5d2b2fb6c7ead222d65dae45e75a0317"></a>
-Wave[]&#160;</td><td class="memItemRight" valign="bottom"><b>mWaves</b></td></tr>
-<tr class="memitem:a57d608ed889c84d153aa85b2350f05a7" id="r_a57d608ed889c84d153aa85b2350f05a7"><td class="memItemLeft" align="right" valign="top"><a id="a57d608ed889c84d153aa85b2350f05a7" name="a57d608ed889c84d153aa85b2350f05a7"></a>
-<a class="el" href="structscenes_1_1gameplayscene_1_1_gameplay_scene_1_1_game_data.html">GameData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mGameData</b></td></tr>
+<tr class="memitem:aa7cdb5f9cb64791cba382d2ae57ca9b6" id="r_aa7cdb5f9cb64791cba382d2ae57ca9b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classeditor_1_1gameplayeditor_1_1_gameplay_editor.html">GameplayEditor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7cdb5f9cb64791cba382d2ae57ca9b6">mGameplayEditor</a></td></tr>
+<tr class="memitem:a268333ac7e85a14b7930a580c7866d7b" id="r_a268333ac7e85a14b7930a580c7866d7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcanvas_1_1gameplaycanvas_1_1_gameplay_canvas.html">GameplayCanvas</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a268333ac7e85a14b7930a580c7866d7b">mGameplayCanvas</a></td></tr>
+<tr class="memitem:a5ea337cf3e7dcf8f3e46f396952e1de1" id="r_a5ea337cf3e7dcf8f3e46f396952e1de1"><td class="memItemLeft" align="right" valign="top">GameObject[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ea337cf3e7dcf8f3e46f396952e1de1">mGameObjects</a></td></tr>
+<tr class="memitem:a151b646a10ec46e718a668edd7e77ce6" id="r_a151b646a10ec46e718a668edd7e77ce6"><td class="memItemLeft" align="right" valign="top">bool[size_t]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a151b646a10ec46e718a668edd7e77ce6">mToBeRemoved</a></td></tr>
+<tr class="memitem:a615b9a63fb18dc29935e40a78ff297ac" id="r_a615b9a63fb18dc29935e40a78ff297ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a615b9a63fb18dc29935e40a78ff297ac">mReturnToMenu</a></td></tr>
+<tr class="memitem:afb6c8d8f858230e49c454a400cbb0f2e" id="r_afb6c8d8f858230e49c454a400cbb0f2e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb6c8d8f858230e49c454a400cbb0f2e">mGameOver</a></td></tr>
+<tr class="memitem:a5d2b2fb6c7ead222d65dae45e75a0317" id="r_a5d2b2fb6c7ead222d65dae45e75a0317"><td class="memItemLeft" align="right" valign="top">Wave[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d2b2fb6c7ead222d65dae45e75a0317">mWaves</a></td></tr>
+<tr class="memitem:a57d608ed889c84d153aa85b2350f05a7" id="r_a57d608ed889c84d153aa85b2350f05a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structscenes_1_1gameplayscene_1_1_gameplay_scene_1_1_game_data.html">GameData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57d608ed889c84d153aa85b2350f05a7">mGameData</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a31a907a613b2fee9cb8ee9b62de8ffcf" id="r_a31a907a613b2fee9cb8ee9b62de8ffcf"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31a907a613b2fee9cb8ee9b62de8ffcf">makeSprite</a> (GameObjectType type, string name, string texturePath, float <a class="el" href="namespaceutility_1_1vec2.html#ae18e9afdc92e42ad9cf810897df89b29">x</a>, float <a class="el" href="namespaceutility_1_1vec2.html#aaf0493e4c2b17b7d3ad16bb4486a4db2">y</a>, float w, float h, SDL_FRect *selection=null)</td></tr>
+<tr class="memitem:aacebafe0bcf3cd7cd7f48c45e280b917" id="r_aacebafe0bcf3cd7cd7f48c45e280b917"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacebafe0bcf3cd7cd7f48c45e280b917">processRemovals</a> ()</td></tr>
+<tr class="memitem:a06f2c7175f0a677b6e5bea672c67fcd1" id="r_a06f2c7175f0a677b6e5bea672c67fcd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06f2c7175f0a677b6e5bea672c67fcd1">processCurrentWave</a> ()</td></tr>
+<tr class="memitem:a8d19b2b68a0491f6b8c0f4a68a7d8e20" id="r_a8d19b2b68a0491f6b8c0f4a68a7d8e20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d19b2b68a0491f6b8c0f4a68a7d8e20">processGameData</a> ()</td></tr>
+<tr class="memitem:ab793aa7f8a31d667a580a091a84fc048" id="r_ab793aa7f8a31d667a580a091a84fc048"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab793aa7f8a31d667a580a091a84fc048">remove</a> (GameObject go)</td></tr>
 </table>
+<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a9a603c9be683c1326b053439caa6fa41" name="a9a603c9be683c1326b053439caa6fa41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a603c9be683c1326b053439caa6fa41">&#9670;&#160;</a></span>this()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">scenes::gameplayscene::GameplayScene::this </td>
+          <td>(</td>
+          <td class="paramtype">GameApplication *</td>          <td class="paramname"><span class="paramname"><em>app</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SDL_Renderer *</td>          <td class="paramname"><span class="paramname"><em>renderer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>sceneFilepath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>levelFilepath</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a0bee0cf95ba0b67942e5fa3c07075d78" name="a0bee0cf95ba0b67942e5fa3c07075d78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bee0cf95ba0b67942e5fa3c07075d78">&#9670;&#160;</a></span>canAffordTower()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool scenes::gameplayscene::GameplayScene::canAffordTower </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>towerIdx</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1e7718d624f6d2704335e18de5f32f43" name="a1e7718d624f6d2704335e18de5f32f43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e7718d624f6d2704335e18de5f32f43">&#9670;&#160;</a></span>delegate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TowerScript scenes::gameplayscene::GameplayScene::delegate </td>
+          <td>(</td>
+          <td class="paramtype">long</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad2ed61d095e05024b2136cf1dc825cde" name="ad2ed61d095e05024b2136cf1dc825cde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2ed61d095e05024b2136cf1dc825cde">&#9670;&#160;</a></span>destroyBalloon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void scenes::gameplayscene::GameplayScene::destroyBalloon </td>
+          <td>(</td>
+          <td class="paramtype">GameObject</td>          <td class="paramname"><span class="paramname"><em>balloon</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a62b8b27833e690601c2608e2ac7b70" name="a7a62b8b27833e690601c2608e2ac7b70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a62b8b27833e690601c2608e2ac7b70">&#9670;&#160;</a></span>destroyBullet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void scenes::gameplayscene::GameplayScene::destroyBullet </td>
+          <td>(</td>
+          <td class="paramtype">GameObject</td>          <td class="paramname"><span class="paramname"><em>bullet</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f4d0c73babc65e5ba71a6a80bc933b7" name="a1f4d0c73babc65e5ba71a6a80bc933b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f4d0c73babc65e5ba71a6a80bc933b7">&#9670;&#160;</a></span>generateBalloonScript()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">BalloonScript scenes::gameplayscene::GameplayScene::generateBalloonScript </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classutility_1_1path_1_1_path.html">Path</a></td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>distAlongPath</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a96765a5428afcf9481090957d6d5ae93" name="a96765a5428afcf9481090957d6d5ae93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96765a5428afcf9481090957d6d5ae93">&#9670;&#160;</a></span>generateBulletScript()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">BulletScript scenes::gameplayscene::GameplayScene::generateBulletScript </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>targetId</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a790424469e69bcee40be83cf46857067" name="a790424469e69bcee40be83cf46857067"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a790424469e69bcee40be83cf46857067">&#9670;&#160;</a></span>generateTowerScript()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TowerScript scenes::gameplayscene::GameplayScene::generateTowerScript </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a657e2023968ce29f795cab5b02767cea" name="a657e2023968ce29f795cab5b02767cea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a657e2023968ce29f795cab5b02767cea">&#9670;&#160;</a></span>getBmpFilepath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string scenes::gameplayscene::GameplayScene::getBmpFilepath </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>category</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a312f9953298b6ed868fa9550b9b68d2a" name="a312f9953298b6ed868fa9550b9b68d2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a312f9953298b6ed868fa9550b9b68d2a">&#9670;&#160;</a></span>getNearestBalloon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject scenes::gameplayscene::GameplayScene::getNearestBalloon </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceutility_1_1vec2.html#adbe4a6a37fb7cbd1d84c43e59e79a79e">Vec2f</a></td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>range</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a94dee751b664e1825b8ff7d4a49441fd" name="a94dee751b664e1825b8ff7d4a49441fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94dee751b664e1825b8ff7d4a49441fd">&#9670;&#160;</a></span>getSelection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_FRect * scenes::gameplayscene::GameplayScene::getSelection </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>category</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>name</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a60239114ee9582373f3a8a08c7fb8ee5" name="a60239114ee9582373f3a8a08c7fb8ee5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60239114ee9582373f3a8a08c7fb8ee5">&#9670;&#160;</a></span>handleInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void scenes::gameplayscene::GameplayScene::handleInput </td>
+          <td>(</td>
+          <td class="paramtype">SDL_Event</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad25938e44846c30542d85876c1df8103" name="ad25938e44846c30542d85876c1df8103"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad25938e44846c30542d85876c1df8103">&#9670;&#160;</a></span>isWaveReady()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool scenes::gameplayscene::GameplayScene::isWaveReady </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ac81387b459611413c172a5717fec17" name="a1ac81387b459611413c172a5717fec17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ac81387b459611413c172a5717fec17">&#9670;&#160;</a></span>loadLevelData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void scenes::gameplayscene::GameplayScene::loadLevelData </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>filepath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c2b636a37809cdee48e8185b693e953" name="a8c2b636a37809cdee48e8185b693e953"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c2b636a37809cdee48e8185b693e953">&#9670;&#160;</a></span>loadSceneData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void scenes::gameplayscene::GameplayScene::loadSceneData </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>filepath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aae2f071fb244d7f46c012059732ffb56" name="aae2f071fb244d7f46c012059732ffb56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae2f071fb244d7f46c012059732ffb56">&#9670;&#160;</a></span>makeBalloon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void scenes::gameplayscene::GameplayScene::makeBalloon </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>colorIdx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classutility_1_1path_1_1_path.html">Path</a></td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>distAlongPath</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.0</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d6ae366741807343e17fc17f1b71600" name="a8d6ae366741807343e17fc17f1b71600"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d6ae366741807343e17fc17f1b71600">&#9670;&#160;</a></span>makeBullet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void scenes::gameplayscene::GameplayScene::makeBullet </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>bulletIdx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>targetId</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31a907a613b2fee9cb8ee9b62de8ffcf" name="a31a907a613b2fee9cb8ee9b62de8ffcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31a907a613b2fee9cb8ee9b62de8ffcf">&#9670;&#160;</a></span>makeSprite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject scenes::gameplayscene::GameplayScene::makeSprite </td>
+          <td>(</td>
+          <td class="paramtype">GameObjectType</td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>texturePath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>w</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>h</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SDL_FRect *</td>          <td class="paramname"><span class="paramname"><em>selection</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a936f099374e0855bdd3f98fdbc82fed2" name="a936f099374e0855bdd3f98fdbc82fed2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a936f099374e0855bdd3f98fdbc82fed2">&#9670;&#160;</a></span>makeTower()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void scenes::gameplayscene::GameplayScene::makeTower </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>towerIdx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>y</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adfd46830086a36ca62f3228aa401a30d" name="adfd46830086a36ca62f3228aa401a30d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfd46830086a36ca62f3228aa401a30d">&#9670;&#160;</a></span>modifyHealth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool scenes::gameplayscene::GameplayScene::modifyHealth </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>delta</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acf9e296a216365a30e47bb65680f9401" name="acf9e296a216365a30e47bb65680f9401"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf9e296a216365a30e47bb65680f9401">&#9670;&#160;</a></span>modifyMoney()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool scenes::gameplayscene::GameplayScene::modifyMoney </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>delta</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a06f2c7175f0a677b6e5bea672c67fcd1" name="a06f2c7175f0a677b6e5bea672c67fcd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06f2c7175f0a677b6e5bea672c67fcd1">&#9670;&#160;</a></span>processCurrentWave()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void scenes::gameplayscene::GameplayScene::processCurrentWave </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d19b2b68a0491f6b8c0f4a68a7d8e20" name="a8d19b2b68a0491f6b8c0f4a68a7d8e20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d19b2b68a0491f6b8c0f4a68a7d8e20">&#9670;&#160;</a></span>processGameData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void scenes::gameplayscene::GameplayScene::processGameData </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aacebafe0bcf3cd7cd7f48c45e280b917" name="aacebafe0bcf3cd7cd7f48c45e280b917"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacebafe0bcf3cd7cd7f48c45e280b917">&#9670;&#160;</a></span>processRemovals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void scenes::gameplayscene::GameplayScene::processRemovals </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab793aa7f8a31d667a580a091a84fc048" name="ab793aa7f8a31d667a580a091a84fc048"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab793aa7f8a31d667a580a091a84fc048">&#9670;&#160;</a></span>remove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void scenes::gameplayscene::GameplayScene::remove </td>
+          <td>(</td>
+          <td class="paramtype">GameObject</td>          <td class="paramname"><span class="paramname"><em>go</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a875f9b3661d4791f17381e646d6109ba" name="a875f9b3661d4791f17381e646d6109ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a875f9b3661d4791f17381e646d6109ba">&#9670;&#160;</a></span>render()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void scenes::gameplayscene::GameplayScene::render </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d93d607018d0a2e4e97eb74914989bf" name="a0d93d607018d0a2e4e97eb74914989bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d93d607018d0a2e4e97eb74914989bf">&#9670;&#160;</a></span>renderGameData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void scenes::gameplayscene::GameplayScene::renderGameData </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae438072eba7b9a8310146fcebcdb6bef" name="ae438072eba7b9a8310146fcebcdb6bef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae438072eba7b9a8310146fcebcdb6bef">&#9670;&#160;</a></span>shouldReturnToMenu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool scenes::gameplayscene::GameplayScene::shouldReturnToMenu </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a85391e01569d3968ed67e2baf1f457a3" name="a85391e01569d3968ed67e2baf1f457a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85391e01569d3968ed67e2baf1f457a3">&#9670;&#160;</a></span>spawnBullet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void scenes::gameplayscene::GameplayScene::spawnBullet </td>
+          <td>(</td>
+          <td class="paramtype">GameObject</td>          <td class="paramname"><span class="paramname"><em>tower</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GameObject</td>          <td class="paramname"><span class="paramname"><em>target</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17e9abed3c8d833b2d5e8c92c7a1caa7" name="a17e9abed3c8d833b2d5e8c92c7a1caa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17e9abed3c8d833b2d5e8c92c7a1caa7">&#9670;&#160;</a></span>startWave()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void scenes::gameplayscene::GameplayScene::startWave </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4738098f0242103e5b224aae05d3f994" name="a4738098f0242103e5b224aae05d3f994"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4738098f0242103e5b224aae05d3f994">&#9670;&#160;</a></span>update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void scenes::gameplayscene::GameplayScene::update </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a57d608ed889c84d153aa85b2350f05a7" name="a57d608ed889c84d153aa85b2350f05a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57d608ed889c84d153aa85b2350f05a7">&#9670;&#160;</a></span>mGameData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structscenes_1_1gameplayscene_1_1_gameplay_scene_1_1_game_data.html">GameData</a> scenes::gameplayscene::GameplayScene::mGameData</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ea337cf3e7dcf8f3e46f396952e1de1" name="a5ea337cf3e7dcf8f3e46f396952e1de1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ea337cf3e7dcf8f3e46f396952e1de1">&#9670;&#160;</a></span>mGameObjects</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject [] scenes::gameplayscene::GameplayScene::mGameObjects</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb6c8d8f858230e49c454a400cbb0f2e" name="afb6c8d8f858230e49c454a400cbb0f2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb6c8d8f858230e49c454a400cbb0f2e">&#9670;&#160;</a></span>mGameOver</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool scenes::gameplayscene::GameplayScene::mGameOver</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a268333ac7e85a14b7930a580c7866d7b" name="a268333ac7e85a14b7930a580c7866d7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a268333ac7e85a14b7930a580c7866d7b">&#9670;&#160;</a></span>mGameplayCanvas</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcanvas_1_1gameplaycanvas_1_1_gameplay_canvas.html">GameplayCanvas</a> scenes::gameplayscene::GameplayScene::mGameplayCanvas</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa7cdb5f9cb64791cba382d2ae57ca9b6" name="aa7cdb5f9cb64791cba382d2ae57ca9b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7cdb5f9cb64791cba382d2ae57ca9b6">&#9670;&#160;</a></span>mGameplayEditor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classeditor_1_1gameplayeditor_1_1_gameplay_editor.html">GameplayEditor</a> scenes::gameplayscene::GameplayScene::mGameplayEditor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a615b9a63fb18dc29935e40a78ff297ac" name="a615b9a63fb18dc29935e40a78ff297ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a615b9a63fb18dc29935e40a78ff297ac">&#9670;&#160;</a></span>mReturnToMenu</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool scenes::gameplayscene::GameplayScene::mReturnToMenu</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a151b646a10ec46e718a668edd7e77ce6" name="a151b646a10ec46e718a668edd7e77ce6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a151b646a10ec46e718a668edd7e77ce6">&#9670;&#160;</a></span>mToBeRemoved</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool [size_t] scenes::gameplayscene::GameplayScene::mToBeRemoved</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d2b2fb6c7ead222d65dae45e75a0317" name="a5d2b2fb6c7ead222d65dae45e75a0317"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d2b2fb6c7ead222d65dae45e75a0317">&#9670;&#160;</a></span>mWaves</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Wave [] scenes::gameplayscene::GameplayScene::mWaves</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>scenes/<b>gameplayscene.d</b></li>
+<li>scenes/<a class="el" href="gameplayscene_8d.html">gameplayscene.d</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -192,7 +1167,7 @@ Wave[]&#160;</td><td class="memItemRight" valign="bottom"><b>mWaves</b></td></tr
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>scenes</b></li><li class="navelem"><b>gameplayscene</b></li><li class="navelem"><a href="classscenes_1_1gameplayscene_1_1_gameplay_scene.html">GameplayScene</a></li>
+    <li class="navelem"><b>scenes</b></li><li class="navelem"><a href="namespacescenes_1_1gameplayscene.html">gameplayscene</a></li><li class="navelem"><a href="classscenes_1_1gameplayscene_1_1_gameplay_scene.html">GameplayScene</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

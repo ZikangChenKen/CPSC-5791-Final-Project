@@ -94,44 +94,388 @@ $(function(){initNavTree('classutility_1_1tilemap_1_1_tile_set.html','','classut
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad3d61d3fd6367ae3ce99764b5d9ba8a6" id="r_ad3d61d3fd6367ae3ce99764b5d9ba8a6"><td class="memItemLeft" align="right" valign="top"><a id="ad3d61d3fd6367ae3ce99764b5d9ba8a6" name="ad3d61d3fd6367ae3ce99764b5d9ba8a6"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>this</b> (string jsonFilepath)</td></tr>
-<tr class="memitem:a1f82160ae428824b6fa4cffc5f801fa6" id="r_a1f82160ae428824b6fa4cffc5f801fa6"><td class="memItemLeft" align="right" valign="top"><a id="a1f82160ae428824b6fa4cffc5f801fa6" name="a1f82160ae428824b6fa4cffc5f801fa6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>loadTileSetData</b> (string jsonFilepath)</td></tr>
-<tr class="memitem:a3a221c7f7a9578a04448da2c8d6db989" id="r_a3a221c7f7a9578a04448da2c8d6db989"><td class="memItemLeft" align="right" valign="top"><a id="a3a221c7f7a9578a04448da2c8d6db989" name="a3a221c7f7a9578a04448da2c8d6db989"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>renderTile</b> (SDL_Renderer *renderer, int tileIdx, float x, float y, float tileSize)</td></tr>
-<tr class="memitem:af039d8947a9578cab36b140e4cca7481" id="r_af039d8947a9578cab36b140e4cca7481"><td class="memItemLeft" align="right" valign="top"><a id="af039d8947a9578cab36b140e4cca7481" name="af039d8947a9578cab36b140e4cca7481"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getNumTiles</b> ()</td></tr>
-<tr class="memitem:a472fc881ccca49c4a6bc704f15a859f2" id="r_a472fc881ccca49c4a6bc704f15a859f2"><td class="memItemLeft" align="right" valign="top"><a id="a472fc881ccca49c4a6bc704f15a859f2" name="a472fc881ccca49c4a6bc704f15a859f2"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isValidTile</b> (int tileIdx)</td></tr>
-<tr class="memitem:ac244330ef8d628e86a439a47089f0b4b" id="r_ac244330ef8d628e86a439a47089f0b4b"><td class="memItemLeft" align="right" valign="top"><a id="ac244330ef8d628e86a439a47089f0b4b" name="ac244330ef8d628e86a439a47089f0b4b"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>getBmpFilepath</b> ()</td></tr>
-<tr class="memitem:a975dbf12f99b3292010bbfed818a8c92" id="r_a975dbf12f99b3292010bbfed818a8c92"><td class="memItemLeft" align="right" valign="top"><a id="a975dbf12f99b3292010bbfed818a8c92" name="a975dbf12f99b3292010bbfed818a8c92"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>getTileBmpFilepath</b> (int tileIdx)</td></tr>
-<tr class="memitem:a4a45cf0c6764de650fadc33dd46485d1" id="r_a4a45cf0c6764de650fadc33dd46485d1"><td class="memItemLeft" align="right" valign="top"><a id="a4a45cf0c6764de650fadc33dd46485d1" name="a4a45cf0c6764de650fadc33dd46485d1"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>getTileName</b> (int tileIdx)</td></tr>
-<tr class="memitem:ade9ba3f6aeee451c8293cf7603ec1502" id="r_ade9ba3f6aeee451c8293cf7603ec1502"><td class="memItemLeft" align="right" valign="top"><a id="ade9ba3f6aeee451c8293cf7603ec1502" name="ade9ba3f6aeee451c8293cf7603ec1502"></a>
-SDL_FRect *&#160;</td><td class="memItemRight" valign="bottom"><b>getSelection</b> (int tileIdx)</td></tr>
-<tr class="memitem:a0d54bf3d79e763cf81c7b7e17e147dd8" id="r_a0d54bf3d79e763cf81c7b7e17e147dd8"><td class="memItemLeft" align="right" valign="top"><a id="a0d54bf3d79e763cf81c7b7e17e147dd8" name="a0d54bf3d79e763cf81c7b7e17e147dd8"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>checkTileName</b> (int tileIdx, string name)</td></tr>
+<tr class="memitem:ad3d61d3fd6367ae3ce99764b5d9ba8a6" id="r_ad3d61d3fd6367ae3ce99764b5d9ba8a6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3d61d3fd6367ae3ce99764b5d9ba8a6">this</a> (string jsonFilepath)</td></tr>
+<tr class="memitem:a1f82160ae428824b6fa4cffc5f801fa6" id="r_a1f82160ae428824b6fa4cffc5f801fa6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f82160ae428824b6fa4cffc5f801fa6">loadTileSetData</a> (string jsonFilepath)</td></tr>
+<tr class="memitem:a3a221c7f7a9578a04448da2c8d6db989" id="r_a3a221c7f7a9578a04448da2c8d6db989"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a221c7f7a9578a04448da2c8d6db989">renderTile</a> (SDL_Renderer *renderer, int tileIdx, float x, float y, float tileSize)</td></tr>
+<tr class="memitem:af039d8947a9578cab36b140e4cca7481" id="r_af039d8947a9578cab36b140e4cca7481"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af039d8947a9578cab36b140e4cca7481">getNumTiles</a> ()</td></tr>
+<tr class="memitem:a472fc881ccca49c4a6bc704f15a859f2" id="r_a472fc881ccca49c4a6bc704f15a859f2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a472fc881ccca49c4a6bc704f15a859f2">isValidTile</a> (int tileIdx)</td></tr>
+<tr class="memitem:ac244330ef8d628e86a439a47089f0b4b" id="r_ac244330ef8d628e86a439a47089f0b4b"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac244330ef8d628e86a439a47089f0b4b">getBmpFilepath</a> ()</td></tr>
+<tr class="memitem:a975dbf12f99b3292010bbfed818a8c92" id="r_a975dbf12f99b3292010bbfed818a8c92"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a975dbf12f99b3292010bbfed818a8c92">getTileBmpFilepath</a> (int tileIdx)</td></tr>
+<tr class="memitem:a4a45cf0c6764de650fadc33dd46485d1" id="r_a4a45cf0c6764de650fadc33dd46485d1"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a45cf0c6764de650fadc33dd46485d1">getTileName</a> (int tileIdx)</td></tr>
+<tr class="memitem:ade9ba3f6aeee451c8293cf7603ec1502" id="r_ade9ba3f6aeee451c8293cf7603ec1502"><td class="memItemLeft" align="right" valign="top">SDL_FRect *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade9ba3f6aeee451c8293cf7603ec1502">getSelection</a> (int tileIdx)</td></tr>
+<tr class="memitem:a0d54bf3d79e763cf81c7b7e17e147dd8" id="r_a0d54bf3d79e763cf81c7b7e17e147dd8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d54bf3d79e763cf81c7b7e17e147dd8">checkTileName</a> (int tileIdx, string name)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a0652c756003ef7484a77197131ff3fcb" id="r_a0652c756003ef7484a77197131ff3fcb"><td class="memItemLeft" align="right" valign="top"><a id="a0652c756003ef7484a77197131ff3fcb" name="a0652c756003ef7484a77197131ff3fcb"></a>
-SDL_FRect[]&#160;</td><td class="memItemRight" valign="bottom"><b>mRectTiles</b></td></tr>
-<tr class="memitem:a7b9bc31598999c67002fd7e9e89dcdc4" id="r_a7b9bc31598999c67002fd7e9e89dcdc4"><td class="memItemLeft" align="right" valign="top"><a id="a7b9bc31598999c67002fd7e9e89dcdc4" name="a7b9bc31598999c67002fd7e9e89dcdc4"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>mBmpFilepath</b></td></tr>
-<tr class="memitem:a268a3aa4baa14a6d6ffa95f980ecf88d" id="r_a268a3aa4baa14a6d6ffa95f980ecf88d"><td class="memItemLeft" align="right" valign="top"><a id="a268a3aa4baa14a6d6ffa95f980ecf88d" name="a268a3aa4baa14a6d6ffa95f980ecf88d"></a>
-string[]&#160;</td><td class="memItemRight" valign="bottom"><b>mTileBmpFilepaths</b></td></tr>
-<tr class="memitem:a5195325d6adb8b7db7f2d59ef6e4aa83" id="r_a5195325d6adb8b7db7f2d59ef6e4aa83"><td class="memItemLeft" align="right" valign="top"><a id="a5195325d6adb8b7db7f2d59ef6e4aa83" name="a5195325d6adb8b7db7f2d59ef6e4aa83"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>mTileWidth</b></td></tr>
-<tr class="memitem:a1697a9cfd59f6302fcd8840b2215e535" id="r_a1697a9cfd59f6302fcd8840b2215e535"><td class="memItemLeft" align="right" valign="top"><a id="a1697a9cfd59f6302fcd8840b2215e535" name="a1697a9cfd59f6302fcd8840b2215e535"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>mTileHeight</b></td></tr>
-<tr class="memitem:a118dcc0155c475bd9b317978af584c21" id="r_a118dcc0155c475bd9b317978af584c21"><td class="memItemLeft" align="right" valign="top"><a id="a118dcc0155c475bd9b317978af584c21" name="a118dcc0155c475bd9b317978af584c21"></a>
-string[int]&#160;</td><td class="memItemRight" valign="bottom"><b>mIdxToName</b></td></tr>
+<tr class="memitem:a0652c756003ef7484a77197131ff3fcb" id="r_a0652c756003ef7484a77197131ff3fcb"><td class="memItemLeft" align="right" valign="top">SDL_FRect[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0652c756003ef7484a77197131ff3fcb">mRectTiles</a></td></tr>
+<tr class="memitem:a7b9bc31598999c67002fd7e9e89dcdc4" id="r_a7b9bc31598999c67002fd7e9e89dcdc4"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b9bc31598999c67002fd7e9e89dcdc4">mBmpFilepath</a></td></tr>
+<tr class="memitem:a268a3aa4baa14a6d6ffa95f980ecf88d" id="r_a268a3aa4baa14a6d6ffa95f980ecf88d"><td class="memItemLeft" align="right" valign="top">string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a268a3aa4baa14a6d6ffa95f980ecf88d">mTileBmpFilepaths</a></td></tr>
+<tr class="memitem:a5195325d6adb8b7db7f2d59ef6e4aa83" id="r_a5195325d6adb8b7db7f2d59ef6e4aa83"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5195325d6adb8b7db7f2d59ef6e4aa83">mTileWidth</a></td></tr>
+<tr class="memitem:a1697a9cfd59f6302fcd8840b2215e535" id="r_a1697a9cfd59f6302fcd8840b2215e535"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1697a9cfd59f6302fcd8840b2215e535">mTileHeight</a></td></tr>
+<tr class="memitem:a118dcc0155c475bd9b317978af584c21" id="r_a118dcc0155c475bd9b317978af584c21"><td class="memItemLeft" align="right" valign="top">string[int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a118dcc0155c475bd9b317978af584c21">mIdxToName</a></td></tr>
 </table>
+<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ad3d61d3fd6367ae3ce99764b5d9ba8a6" name="ad3d61d3fd6367ae3ce99764b5d9ba8a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3d61d3fd6367ae3ce99764b5d9ba8a6">&#9670;&#160;</a></span>this()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">utility::tilemap::TileSet::this </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>jsonFilepath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a0d54bf3d79e763cf81c7b7e17e147dd8" name="a0d54bf3d79e763cf81c7b7e17e147dd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d54bf3d79e763cf81c7b7e17e147dd8">&#9670;&#160;</a></span>checkTileName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool utility::tilemap::TileSet::checkTileName </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>tileIdx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>name</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac244330ef8d628e86a439a47089f0b4b" name="ac244330ef8d628e86a439a47089f0b4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac244330ef8d628e86a439a47089f0b4b">&#9670;&#160;</a></span>getBmpFilepath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string utility::tilemap::TileSet::getBmpFilepath </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af039d8947a9578cab36b140e4cca7481" name="af039d8947a9578cab36b140e4cca7481"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af039d8947a9578cab36b140e4cca7481">&#9670;&#160;</a></span>getNumTiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int utility::tilemap::TileSet::getNumTiles </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ade9ba3f6aeee451c8293cf7603ec1502" name="ade9ba3f6aeee451c8293cf7603ec1502"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade9ba3f6aeee451c8293cf7603ec1502">&#9670;&#160;</a></span>getSelection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_FRect * utility::tilemap::TileSet::getSelection </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>tileIdx</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a975dbf12f99b3292010bbfed818a8c92" name="a975dbf12f99b3292010bbfed818a8c92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a975dbf12f99b3292010bbfed818a8c92">&#9670;&#160;</a></span>getTileBmpFilepath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string utility::tilemap::TileSet::getTileBmpFilepath </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>tileIdx</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a45cf0c6764de650fadc33dd46485d1" name="a4a45cf0c6764de650fadc33dd46485d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a45cf0c6764de650fadc33dd46485d1">&#9670;&#160;</a></span>getTileName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string utility::tilemap::TileSet::getTileName </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>tileIdx</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a472fc881ccca49c4a6bc704f15a859f2" name="a472fc881ccca49c4a6bc704f15a859f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a472fc881ccca49c4a6bc704f15a859f2">&#9670;&#160;</a></span>isValidTile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool utility::tilemap::TileSet::isValidTile </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>tileIdx</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f82160ae428824b6fa4cffc5f801fa6" name="a1f82160ae428824b6fa4cffc5f801fa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f82160ae428824b6fa4cffc5f801fa6">&#9670;&#160;</a></span>loadTileSetData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void utility::tilemap::TileSet::loadTileSetData </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>jsonFilepath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a221c7f7a9578a04448da2c8d6db989" name="a3a221c7f7a9578a04448da2c8d6db989"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a221c7f7a9578a04448da2c8d6db989">&#9670;&#160;</a></span>renderTile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void utility::tilemap::TileSet::renderTile </td>
+          <td>(</td>
+          <td class="paramtype">SDL_Renderer *</td>          <td class="paramname"><span class="paramname"><em>renderer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>tileIdx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>tileSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a7b9bc31598999c67002fd7e9e89dcdc4" name="a7b9bc31598999c67002fd7e9e89dcdc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b9bc31598999c67002fd7e9e89dcdc4">&#9670;&#160;</a></span>mBmpFilepath</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string utility::tilemap::TileSet::mBmpFilepath</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a118dcc0155c475bd9b317978af584c21" name="a118dcc0155c475bd9b317978af584c21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a118dcc0155c475bd9b317978af584c21">&#9670;&#160;</a></span>mIdxToName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string [int] utility::tilemap::TileSet::mIdxToName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0652c756003ef7484a77197131ff3fcb" name="a0652c756003ef7484a77197131ff3fcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0652c756003ef7484a77197131ff3fcb">&#9670;&#160;</a></span>mRectTiles</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_FRect [] utility::tilemap::TileSet::mRectTiles</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a268a3aa4baa14a6d6ffa95f980ecf88d" name="a268a3aa4baa14a6d6ffa95f980ecf88d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a268a3aa4baa14a6d6ffa95f980ecf88d">&#9670;&#160;</a></span>mTileBmpFilepaths</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string [] utility::tilemap::TileSet::mTileBmpFilepaths</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1697a9cfd59f6302fcd8840b2215e535" name="a1697a9cfd59f6302fcd8840b2215e535"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1697a9cfd59f6302fcd8840b2215e535">&#9670;&#160;</a></span>mTileHeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int utility::tilemap::TileSet::mTileHeight</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5195325d6adb8b7db7f2d59ef6e4aa83" name="a5195325d6adb8b7db7f2d59ef6e4aa83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5195325d6adb8b7db7f2d59ef6e4aa83">&#9670;&#160;</a></span>mTileWidth</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int utility::tilemap::TileSet::mTileWidth</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>utility/<b>tilemap.d</b></li>
+<li>utility/<a class="el" href="tilemap_8d.html">tilemap.d</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -146,7 +490,7 @@ string[int]&#160;</td><td class="memItemRight" valign="bottom"><b>mIdxToName</b>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>utility</b></li><li class="navelem"><b>tilemap</b></li><li class="navelem"><a href="classutility_1_1tilemap_1_1_tile_set.html">TileSet</a></li>
+    <li class="navelem"><b>utility</b></li><li class="navelem"><a href="namespaceutility_1_1tilemap.html">tilemap</a></li><li class="navelem"><a href="classutility_1_1tilemap_1_1_tile_set.html">TileSet</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>

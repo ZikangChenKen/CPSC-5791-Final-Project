@@ -105,35 +105,250 @@ Inheritance diagram for editor::editor::Editor:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8e1f7af3267945b7562d6a82a062fd4c" id="r_a8e1f7af3267945b7562d6a82a062fd4c"><td class="memItemLeft" align="right" valign="top"><a id="a8e1f7af3267945b7562d6a82a062fd4c" name="a8e1f7af3267945b7562d6a82a062fd4c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>this</b> (Scene scene, SDL_Renderer *renderer)</td></tr>
-<tr class="memitem:aec4bdb62560ac38c105998fcc189178c" id="r_aec4bdb62560ac38c105998fcc189178c"><td class="memItemLeft" align="right" valign="top"><a id="aec4bdb62560ac38c105998fcc189178c" name="aec4bdb62560ac38c105998fcc189178c"></a>
-abstract void&#160;</td><td class="memItemRight" valign="bottom"><b>handleInput</b> (SDL_Event event)</td></tr>
-<tr class="memitem:a3d7fcb3126c3a2b72c11778576972eb0" id="r_a3d7fcb3126c3a2b72c11778576972eb0"><td class="memItemLeft" align="right" valign="top"><a id="a3d7fcb3126c3a2b72c11778576972eb0" name="a3d7fcb3126c3a2b72c11778576972eb0"></a>
-abstract void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> ()</td></tr>
-<tr class="memitem:af211a6d52166ea80b24484ee4841e2b2" id="r_af211a6d52166ea80b24484ee4841e2b2"><td class="memItemLeft" align="right" valign="top"><a id="af211a6d52166ea80b24484ee4841e2b2" name="af211a6d52166ea80b24484ee4841e2b2"></a>
-abstract void&#160;</td><td class="memItemRight" valign="bottom"><b>render</b> ()</td></tr>
+<tr class="memitem:a8e1f7af3267945b7562d6a82a062fd4c" id="r_a8e1f7af3267945b7562d6a82a062fd4c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e1f7af3267945b7562d6a82a062fd4c">this</a> (Scene scene, SDL_Renderer *renderer)</td></tr>
+<tr class="memitem:aec4bdb62560ac38c105998fcc189178c" id="r_aec4bdb62560ac38c105998fcc189178c"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec4bdb62560ac38c105998fcc189178c">handleInput</a> (SDL_Event event)</td></tr>
+<tr class="memitem:a3d7fcb3126c3a2b72c11778576972eb0" id="r_a3d7fcb3126c3a2b72c11778576972eb0"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d7fcb3126c3a2b72c11778576972eb0">update</a> ()</td></tr>
+<tr class="memitem:af211a6d52166ea80b24484ee4841e2b2" id="r_af211a6d52166ea80b24484ee4841e2b2"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af211a6d52166ea80b24484ee4841e2b2">render</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a268d3d1ac892b5c935fc07716eaaf75b" id="r_a268d3d1ac892b5c935fc07716eaaf75b"><td class="memItemLeft" align="right" valign="top"><a id="a268d3d1ac892b5c935fc07716eaaf75b" name="a268d3d1ac892b5c935fc07716eaaf75b"></a>
-Scene&#160;</td><td class="memItemRight" valign="bottom"><b>mScene</b></td></tr>
-<tr class="memitem:a57bdfd4e3e26593af4d08ab352fa6b18" id="r_a57bdfd4e3e26593af4d08ab352fa6b18"><td class="memItemLeft" align="right" valign="top"><a id="a57bdfd4e3e26593af4d08ab352fa6b18" name="a57bdfd4e3e26593af4d08ab352fa6b18"></a>
-SDL_Renderer *&#160;</td><td class="memItemRight" valign="bottom"><b>mRenderer</b></td></tr>
-<tr class="memitem:af7dcd2d887a15252b5bc937eef22a2a5" id="r_af7dcd2d887a15252b5bc937eef22a2a5"><td class="memItemLeft" align="right" valign="top"><a id="af7dcd2d887a15252b5bc937eef22a2a5" name="af7dcd2d887a15252b5bc937eef22a2a5"></a>
-SDL_FRect&#160;</td><td class="memItemRight" valign="bottom"><b>mRect</b></td></tr>
-<tr class="memitem:a54afac800b20558a6f4fdb4b9778df4a" id="r_a54afac800b20558a6f4fdb4b9778df4a"><td class="memItemLeft" align="right" valign="top"><a id="a54afac800b20558a6f4fdb4b9778df4a" name="a54afac800b20558a6f4fdb4b9778df4a"></a>
-<a class="el" href="structutility_1_1gui_1_1_button.html">Button</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>mButtons</b></td></tr>
+<tr class="memitem:a268d3d1ac892b5c935fc07716eaaf75b" id="r_a268d3d1ac892b5c935fc07716eaaf75b"><td class="memItemLeft" align="right" valign="top">Scene&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a268d3d1ac892b5c935fc07716eaaf75b">mScene</a></td></tr>
+<tr class="memitem:a57bdfd4e3e26593af4d08ab352fa6b18" id="r_a57bdfd4e3e26593af4d08ab352fa6b18"><td class="memItemLeft" align="right" valign="top">SDL_Renderer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57bdfd4e3e26593af4d08ab352fa6b18">mRenderer</a></td></tr>
+<tr class="memitem:af7dcd2d887a15252b5bc937eef22a2a5" id="r_af7dcd2d887a15252b5bc937eef22a2a5"><td class="memItemLeft" align="right" valign="top">SDL_FRect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7dcd2d887a15252b5bc937eef22a2a5">mRect</a></td></tr>
+<tr class="memitem:a54afac800b20558a6f4fdb4b9778df4a" id="r_a54afac800b20558a6f4fdb4b9778df4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structutility_1_1gui_1_1_button.html">Button</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54afac800b20558a6f4fdb4b9778df4a">mButtons</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a541d5d1d01e24d0801ccfb177b2a5357" id="r_a541d5d1d01e24d0801ccfb177b2a5357"><td class="memItemLeft" align="right" valign="top"><a id="a541d5d1d01e24d0801ccfb177b2a5357" name="a541d5d1d01e24d0801ccfb177b2a5357"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>handleMouseClick</b> (float mouseX, float mouseY)</td></tr>
-<tr class="memitem:a34d66d9a540ab6b9c7f2cb8ac6c1fd26" id="r_a34d66d9a540ab6b9c7f2cb8ac6c1fd26"><td class="memItemLeft" align="right" valign="top"><a id="a34d66d9a540ab6b9c7f2cb8ac6c1fd26" name="a34d66d9a540ab6b9c7f2cb8ac6c1fd26"></a>
-abstract void&#160;</td><td class="memItemRight" valign="bottom"><b>clickButton</b> (ref <a class="el" href="structutility_1_1gui_1_1_button.html">Button</a> button)</td></tr>
+<tr class="memitem:a541d5d1d01e24d0801ccfb177b2a5357" id="r_a541d5d1d01e24d0801ccfb177b2a5357"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a541d5d1d01e24d0801ccfb177b2a5357">handleMouseClick</a> (float mouseX, float mouseY)</td></tr>
+<tr class="memitem:a34d66d9a540ab6b9c7f2cb8ac6c1fd26" id="r_a34d66d9a540ab6b9c7f2cb8ac6c1fd26"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34d66d9a540ab6b9c7f2cb8ac6c1fd26">clickButton</a> (ref <a class="el" href="structutility_1_1gui_1_1_button.html">Button</a> button)</td></tr>
 </table>
+<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a8e1f7af3267945b7562d6a82a062fd4c" name="a8e1f7af3267945b7562d6a82a062fd4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e1f7af3267945b7562d6a82a062fd4c">&#9670;&#160;</a></span>this()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">editor::editor::Editor::this </td>
+          <td>(</td>
+          <td class="paramtype">Scene</td>          <td class="paramname"><span class="paramname"><em>scene</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SDL_Renderer *</td>          <td class="paramname"><span class="paramname"><em>renderer</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a34d66d9a540ab6b9c7f2cb8ac6c1fd26" name="a34d66d9a540ab6b9c7f2cb8ac6c1fd26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34d66d9a540ab6b9c7f2cb8ac6c1fd26">&#9670;&#160;</a></span>clickButton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void editor::editor::Editor::clickButton </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="structutility_1_1gui_1_1_button.html">Button</a></td>          <td class="paramname"><span class="paramname"><em>button</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classeditor_1_1gameplayeditor_1_1_gameplay_editor.html#a686b2d93720983cb46225355be4f017d">editor::gameplayeditor::GameplayEditor</a>, <a class="el" href="classeditor_1_1tileselectoreditor_1_1_tile_selector_editor.html#a16828c05d4a937e70ae46e2af4068054">editor::tileselectoreditor::TileSelectorEditor</a>, and <a class="el" href="classeditor_1_1waveeditor_1_1_wave_editor.html#a13e83fa63d9071f4c753267c55ffb6ab">editor::waveeditor::WaveEditor</a>.</p>
+
+</div>
+</div>
+<a id="aec4bdb62560ac38c105998fcc189178c" name="aec4bdb62560ac38c105998fcc189178c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec4bdb62560ac38c105998fcc189178c">&#9670;&#160;</a></span>handleInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void editor::editor::Editor::handleInput </td>
+          <td>(</td>
+          <td class="paramtype">SDL_Event</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classeditor_1_1gameplayeditor_1_1_gameplay_editor.html#a9e81d6da1d6c7eb050a500d893f6a89b">editor::gameplayeditor::GameplayEditor</a>, <a class="el" href="classeditor_1_1tileselectoreditor_1_1_tile_selector_editor.html#a1ae610e98d5490f74fece089178debb0">editor::tileselectoreditor::TileSelectorEditor</a>, and <a class="el" href="classeditor_1_1waveeditor_1_1_wave_editor.html#aeac2e9bf01f6333b058f32482de55bc4">editor::waveeditor::WaveEditor</a>.</p>
+
+</div>
+</div>
+<a id="a541d5d1d01e24d0801ccfb177b2a5357" name="a541d5d1d01e24d0801ccfb177b2a5357"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a541d5d1d01e24d0801ccfb177b2a5357">&#9670;&#160;</a></span>handleMouseClick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void editor::editor::Editor::handleMouseClick </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>mouseX</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>mouseY</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af211a6d52166ea80b24484ee4841e2b2" name="af211a6d52166ea80b24484ee4841e2b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af211a6d52166ea80b24484ee4841e2b2">&#9670;&#160;</a></span>render()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void editor::editor::Editor::render </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classeditor_1_1gameplayeditor_1_1_gameplay_editor.html#acc1e9900c1d7a640602d80088924b555">editor::gameplayeditor::GameplayEditor</a>, <a class="el" href="classeditor_1_1tileselectoreditor_1_1_tile_selector_editor.html#a09042643bc3e0fced4632851dbf87c3c">editor::tileselectoreditor::TileSelectorEditor</a>, and <a class="el" href="classeditor_1_1waveeditor_1_1_wave_editor.html#a6a7773106aada64c2192da04f274f8d1">editor::waveeditor::WaveEditor</a>.</p>
+
+</div>
+</div>
+<a id="a3d7fcb3126c3a2b72c11778576972eb0" name="a3d7fcb3126c3a2b72c11778576972eb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d7fcb3126c3a2b72c11778576972eb0">&#9670;&#160;</a></span>update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void editor::editor::Editor::update </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classeditor_1_1gameplayeditor_1_1_gameplay_editor.html#a017b49b2d9c99fd3c917e073d482adb3">editor::gameplayeditor::GameplayEditor</a>, <a class="el" href="classeditor_1_1tileselectoreditor_1_1_tile_selector_editor.html#adc47f1ab97f919bf46939f5f1de9f162">editor::tileselectoreditor::TileSelectorEditor</a>, and <a class="el" href="classeditor_1_1waveeditor_1_1_wave_editor.html#a2cc38d0826825af41eaa160fa8fab198">editor::waveeditor::WaveEditor</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a54afac800b20558a6f4fdb4b9778df4a" name="a54afac800b20558a6f4fdb4b9778df4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54afac800b20558a6f4fdb4b9778df4a">&#9670;&#160;</a></span>mButtons</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structutility_1_1gui_1_1_button.html">Button</a> [] editor::editor::Editor::mButtons</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af7dcd2d887a15252b5bc937eef22a2a5" name="af7dcd2d887a15252b5bc937eef22a2a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7dcd2d887a15252b5bc937eef22a2a5">&#9670;&#160;</a></span>mRect</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_FRect editor::editor::Editor::mRect</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a57bdfd4e3e26593af4d08ab352fa6b18" name="a57bdfd4e3e26593af4d08ab352fa6b18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57bdfd4e3e26593af4d08ab352fa6b18">&#9670;&#160;</a></span>mRenderer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_Renderer* editor::editor::Editor::mRenderer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a268d3d1ac892b5c935fc07716eaaf75b" name="a268d3d1ac892b5c935fc07716eaaf75b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a268d3d1ac892b5c935fc07716eaaf75b">&#9670;&#160;</a></span>mScene</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Scene editor::editor::Editor::mScene</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>editor/<b>editor.d</b></li>
+<li>editor/<a class="el" href="editor_8d.html">editor.d</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -148,7 +363,7 @@ abstract void&#160;</td><td class="memItemRight" valign="bottom"><b>clickButton<
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>editor</b></li><li class="navelem"><b>editor</b></li><li class="navelem"><a href="classeditor_1_1editor_1_1_editor.html">Editor</a></li>
+    <li class="navelem"><b>editor</b></li><li class="navelem"><a href="namespaceeditor_1_1editor.html">editor</a></li><li class="navelem"><a href="classeditor_1_1editor_1_1_editor.html">Editor</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
   </ul>
 </div>
