@@ -104,10 +104,12 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a99500de94fd8e54f86ca9c4e91958d2a" id="r_a99500de94fd8e54f86ca9c4e91958d2a"><td class="memItemLeft" align="right" valign="top"><a id="a99500de94fd8e54f86ca9c4e91958d2a" name="a99500de94fd8e54f86ca9c4e91958d2a"></a>
-TowerScript&#160;</td><td class="memItemRight" valign="bottom"><b>delegate</b> ()[string] mTowerScripts</td></tr>
-<tr class="memitem:a85751bd63a781b8d9fd02a608db32c78" id="r_a85751bd63a781b8d9fd02a608db32c78"><td class="memItemLeft" align="right" valign="top"><a id="a85751bd63a781b8d9fd02a608db32c78" name="a85751bd63a781b8d9fd02a608db32c78"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>this</b> (GameApplication *app, SDL_Renderer *renderer, string filepath)</td></tr>
+<tr class="memitem:a1e7718d624f6d2704335e18de5f32f43" id="r_a1e7718d624f6d2704335e18de5f32f43"><td class="memItemLeft" align="right" valign="top"><a id="a1e7718d624f6d2704335e18de5f32f43" name="a1e7718d624f6d2704335e18de5f32f43"></a>
+TowerScript&#160;</td><td class="memItemRight" valign="bottom"><b>delegate</b> (long, long)[string] mTowerScripts</td></tr>
+<tr class="memitem:a9a603c9be683c1326b053439caa6fa41" id="r_a9a603c9be683c1326b053439caa6fa41"><td class="memItemLeft" align="right" valign="top"><a id="a9a603c9be683c1326b053439caa6fa41" name="a9a603c9be683c1326b053439caa6fa41"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>this</b> (GameApplication *app, SDL_Renderer *renderer, string sceneFilepath, string levelFilepath)</td></tr>
+<tr class="memitem:a1ac81387b459611413c172a5717fec17" id="r_a1ac81387b459611413c172a5717fec17"><td class="memItemLeft" align="right" valign="top"><a id="a1ac81387b459611413c172a5717fec17" name="a1ac81387b459611413c172a5717fec17"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>loadLevelData</b> (string filepath)</td></tr>
 <tr class="memitem:a8c2b636a37809cdee48e8185b693e953" id="r_a8c2b636a37809cdee48e8185b693e953"><td class="memItemLeft" align="right" valign="top"><a id="a8c2b636a37809cdee48e8185b693e953" name="a8c2b636a37809cdee48e8185b693e953"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>loadSceneData</b> (string filepath)</td></tr>
 <tr class="memitem:a60239114ee9582373f3a8a08c7fb8ee5" id="r_a60239114ee9582373f3a8a08c7fb8ee5"><td class="memItemLeft" align="right" valign="top"><a id="a60239114ee9582373f3a8a08c7fb8ee5" name="a60239114ee9582373f3a8a08c7fb8ee5"></a>
@@ -120,40 +122,40 @@ override void&#160;</td><td class="memItemRight" valign="bottom"><b>render</b> (
 void&#160;</td><td class="memItemRight" valign="bottom"><b>renderGameData</b> ()</td></tr>
 <tr class="memitem:ae438072eba7b9a8310146fcebcdb6bef" id="r_ae438072eba7b9a8310146fcebcdb6bef"><td class="memItemLeft" align="right" valign="top"><a id="ae438072eba7b9a8310146fcebcdb6bef" name="ae438072eba7b9a8310146fcebcdb6bef"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>shouldReturnToMenu</b> ()</td></tr>
-<tr class="memitem:ae7c2382314c50bed694f453c14f9dbb5" id="r_ae7c2382314c50bed694f453c14f9dbb5"><td class="memItemLeft" align="right" valign="top"><a id="ae7c2382314c50bed694f453c14f9dbb5" name="ae7c2382314c50bed694f453c14f9dbb5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>makeBalloon</b> (int colorIdx, float x, float y, float w, float h, <a class="el" href="classutility_1_1path_1_1_path.html">Path</a> path, float distAlongPath=0.0)</td></tr>
-<tr class="memitem:a8a48f0a35cdd4992c2d7b8c6fddef6d5" id="r_a8a48f0a35cdd4992c2d7b8c6fddef6d5"><td class="memItemLeft" align="right" valign="top"><a id="a8a48f0a35cdd4992c2d7b8c6fddef6d5" name="a8a48f0a35cdd4992c2d7b8c6fddef6d5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>makeTower</b> (int towerIdx, float x, float y, float w, float h)</td></tr>
-<tr class="memitem:a3bbb099845fcaf8d87077f90aa9db642" id="r_a3bbb099845fcaf8d87077f90aa9db642"><td class="memItemLeft" align="right" valign="top"><a id="a3bbb099845fcaf8d87077f90aa9db642" name="a3bbb099845fcaf8d87077f90aa9db642"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>makeBullet</b> (int bulletIdx, float x, float y, float w, float h, size_t targetId)</td></tr>
+<tr class="memitem:aae2f071fb244d7f46c012059732ffb56" id="r_aae2f071fb244d7f46c012059732ffb56"><td class="memItemLeft" align="right" valign="top"><a id="aae2f071fb244d7f46c012059732ffb56" name="aae2f071fb244d7f46c012059732ffb56"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>makeBalloon</b> (int colorIdx, float x, float y, <a class="el" href="classutility_1_1path_1_1_path.html">Path</a> path, float distAlongPath=0.0)</td></tr>
+<tr class="memitem:a936f099374e0855bdd3f98fdbc82fed2" id="r_a936f099374e0855bdd3f98fdbc82fed2"><td class="memItemLeft" align="right" valign="top"><a id="a936f099374e0855bdd3f98fdbc82fed2" name="a936f099374e0855bdd3f98fdbc82fed2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>makeTower</b> (int towerIdx, float x, float y)</td></tr>
+<tr class="memitem:a8d6ae366741807343e17fc17f1b71600" id="r_a8d6ae366741807343e17fc17f1b71600"><td class="memItemLeft" align="right" valign="top"><a id="a8d6ae366741807343e17fc17f1b71600" name="a8d6ae366741807343e17fc17f1b71600"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>makeBullet</b> (int bulletIdx, float x, float y, size_t targetId)</td></tr>
 <tr class="memitem:a1f4d0c73babc65e5ba71a6a80bc933b7" id="r_a1f4d0c73babc65e5ba71a6a80bc933b7"><td class="memItemLeft" align="right" valign="top"><a id="a1f4d0c73babc65e5ba71a6a80bc933b7" name="a1f4d0c73babc65e5ba71a6a80bc933b7"></a>
 BalloonScript&#160;</td><td class="memItemRight" valign="bottom"><b>generateBalloonScript</b> (string name, <a class="el" href="classutility_1_1path_1_1_path.html">Path</a> path, float distAlongPath)</td></tr>
 <tr class="memitem:a790424469e69bcee40be83cf46857067" id="r_a790424469e69bcee40be83cf46857067"><td class="memItemLeft" align="right" valign="top"><a id="a790424469e69bcee40be83cf46857067" name="a790424469e69bcee40be83cf46857067"></a>
 TowerScript&#160;</td><td class="memItemRight" valign="bottom"><b>generateTowerScript</b> (string name)</td></tr>
 <tr class="memitem:a96765a5428afcf9481090957d6d5ae93" id="r_a96765a5428afcf9481090957d6d5ae93"><td class="memItemLeft" align="right" valign="top"><a id="a96765a5428afcf9481090957d6d5ae93" name="a96765a5428afcf9481090957d6d5ae93"></a>
 BulletScript&#160;</td><td class="memItemRight" valign="bottom"><b>generateBulletScript</b> (string name, size_t targetId)</td></tr>
+<tr class="memitem:ad2ed61d095e05024b2136cf1dc825cde" id="r_ad2ed61d095e05024b2136cf1dc825cde"><td class="memItemLeft" align="right" valign="top"><a id="ad2ed61d095e05024b2136cf1dc825cde" name="ad2ed61d095e05024b2136cf1dc825cde"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>destroyBalloon</b> (GameObject balloon)</td></tr>
+<tr class="memitem:a7a62b8b27833e690601c2608e2ac7b70" id="r_a7a62b8b27833e690601c2608e2ac7b70"><td class="memItemLeft" align="right" valign="top"><a id="a7a62b8b27833e690601c2608e2ac7b70" name="a7a62b8b27833e690601c2608e2ac7b70"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>destroyBullet</b> (GameObject bullet)</td></tr>
 <tr class="memitem:a657e2023968ce29f795cab5b02767cea" id="r_a657e2023968ce29f795cab5b02767cea"><td class="memItemLeft" align="right" valign="top"><a id="a657e2023968ce29f795cab5b02767cea" name="a657e2023968ce29f795cab5b02767cea"></a>
 string&#160;</td><td class="memItemRight" valign="bottom"><b>getBmpFilepath</b> (string category)</td></tr>
 <tr class="memitem:a94dee751b664e1825b8ff7d4a49441fd" id="r_a94dee751b664e1825b8ff7d4a49441fd"><td class="memItemLeft" align="right" valign="top"><a id="a94dee751b664e1825b8ff7d4a49441fd" name="a94dee751b664e1825b8ff7d4a49441fd"></a>
 SDL_FRect *&#160;</td><td class="memItemRight" valign="bottom"><b>getSelection</b> (string category, string name)</td></tr>
 <tr class="memitem:a312f9953298b6ed868fa9550b9b68d2a" id="r_a312f9953298b6ed868fa9550b9b68d2a"><td class="memItemLeft" align="right" valign="top"><a id="a312f9953298b6ed868fa9550b9b68d2a" name="a312f9953298b6ed868fa9550b9b68d2a"></a>
 GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>getNearestBalloon</b> (Vec2f position, float range)</td></tr>
-<tr class="memitem:ad2ed61d095e05024b2136cf1dc825cde" id="r_ad2ed61d095e05024b2136cf1dc825cde"><td class="memItemLeft" align="right" valign="top"><a id="ad2ed61d095e05024b2136cf1dc825cde" name="ad2ed61d095e05024b2136cf1dc825cde"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>destroyBalloon</b> (GameObject balloon)</td></tr>
-<tr class="memitem:a7a62b8b27833e690601c2608e2ac7b70" id="r_a7a62b8b27833e690601c2608e2ac7b70"><td class="memItemLeft" align="right" valign="top"><a id="a7a62b8b27833e690601c2608e2ac7b70" name="a7a62b8b27833e690601c2608e2ac7b70"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>destroyBullet</b> (GameObject bullet)</td></tr>
 <tr class="memitem:a85391e01569d3968ed67e2baf1f457a3" id="r_a85391e01569d3968ed67e2baf1f457a3"><td class="memItemLeft" align="right" valign="top"><a id="a85391e01569d3968ed67e2baf1f457a3" name="a85391e01569d3968ed67e2baf1f457a3"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>spawnBullet</b> (GameObject tower, GameObject target)</td></tr>
-<tr class="memitem:a6f0c8a1abe161f5adcd33a7aa36963e8" id="r_a6f0c8a1abe161f5adcd33a7aa36963e8"><td class="memItemLeft" align="right" valign="top"><a id="a6f0c8a1abe161f5adcd33a7aa36963e8" name="a6f0c8a1abe161f5adcd33a7aa36963e8"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>getBalloonById</b> (size_t id)</td></tr>
-<tr class="memitem:ad2ee85a044f2f8ca42271cdd2de8cd45" id="r_ad2ee85a044f2f8ca42271cdd2de8cd45"><td class="memItemLeft" align="right" valign="top"><a id="ad2ee85a044f2f8ca42271cdd2de8cd45" name="ad2ee85a044f2f8ca42271cdd2de8cd45"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>processPendingRemovals</b> ()</td></tr>
 <tr class="memitem:acf9e296a216365a30e47bb65680f9401" id="r_acf9e296a216365a30e47bb65680f9401"><td class="memItemLeft" align="right" valign="top"><a id="acf9e296a216365a30e47bb65680f9401" name="acf9e296a216365a30e47bb65680f9401"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>modifyMoney</b> (int delta)</td></tr>
 <tr class="memitem:a0bee0cf95ba0b67942e5fa3c07075d78" id="r_a0bee0cf95ba0b67942e5fa3c07075d78"><td class="memItemLeft" align="right" valign="top"><a id="a0bee0cf95ba0b67942e5fa3c07075d78" name="a0bee0cf95ba0b67942e5fa3c07075d78"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>canAffordTower</b> (int towerIdx)</td></tr>
 <tr class="memitem:adfd46830086a36ca62f3228aa401a30d" id="r_adfd46830086a36ca62f3228aa401a30d"><td class="memItemLeft" align="right" valign="top"><a id="adfd46830086a36ca62f3228aa401a30d" name="adfd46830086a36ca62f3228aa401a30d"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>modifyHealth</b> (int delta)</td></tr>
+<tr class="memitem:ad25938e44846c30542d85876c1df8103" id="r_ad25938e44846c30542d85876c1df8103"><td class="memItemLeft" align="right" valign="top"><a id="ad25938e44846c30542d85876c1df8103" name="ad25938e44846c30542d85876c1df8103"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isWaveReady</b> ()</td></tr>
+<tr class="memitem:a17e9abed3c8d833b2d5e8c92c7a1caa7" id="r_a17e9abed3c8d833b2d5e8c92c7a1caa7"><td class="memItemLeft" align="right" valign="top"><a id="a17e9abed3c8d833b2d5e8c92c7a1caa7" name="a17e9abed3c8d833b2d5e8c92c7a1caa7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>startWave</b> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -163,16 +165,12 @@ Public Attributes</h2></td></tr>
 <a class="el" href="classcanvas_1_1gameplaycanvas_1_1_gameplay_canvas.html">GameplayCanvas</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mGameplayCanvas</b></td></tr>
 <tr class="memitem:a5ea337cf3e7dcf8f3e46f396952e1de1" id="r_a5ea337cf3e7dcf8f3e46f396952e1de1"><td class="memItemLeft" align="right" valign="top"><a id="a5ea337cf3e7dcf8f3e46f396952e1de1" name="a5ea337cf3e7dcf8f3e46f396952e1de1"></a>
 GameObject[]&#160;</td><td class="memItemRight" valign="bottom"><b>mGameObjects</b></td></tr>
-<tr class="memitem:a008d0d4687668674918b2dfacd5d28d1" id="r_a008d0d4687668674918b2dfacd5d28d1"><td class="memItemLeft" align="right" valign="top"><a id="a008d0d4687668674918b2dfacd5d28d1" name="a008d0d4687668674918b2dfacd5d28d1"></a>
-GameObject[]&#160;</td><td class="memItemRight" valign="bottom"><b>mBalloons</b></td></tr>
-<tr class="memitem:af1cb89dd1cc03ecea1fc10f78735d024" id="r_af1cb89dd1cc03ecea1fc10f78735d024"><td class="memItemLeft" align="right" valign="top"><a id="af1cb89dd1cc03ecea1fc10f78735d024" name="af1cb89dd1cc03ecea1fc10f78735d024"></a>
-GameObject[]&#160;</td><td class="memItemRight" valign="bottom"><b>mTowers</b></td></tr>
-<tr class="memitem:a2c3621cdcc1bfa114ea39f9d747866ce" id="r_a2c3621cdcc1bfa114ea39f9d747866ce"><td class="memItemLeft" align="right" valign="top"><a id="a2c3621cdcc1bfa114ea39f9d747866ce" name="a2c3621cdcc1bfa114ea39f9d747866ce"></a>
-GameObject[]&#160;</td><td class="memItemRight" valign="bottom"><b>mBullets</b></td></tr>
-<tr class="memitem:a5ccf8fdc0be9ef391e61a1c3f917e33f" id="r_a5ccf8fdc0be9ef391e61a1c3f917e33f"><td class="memItemLeft" align="right" valign="top"><a id="a5ccf8fdc0be9ef391e61a1c3f917e33f" name="a5ccf8fdc0be9ef391e61a1c3f917e33f"></a>
-GameObject[]&#160;</td><td class="memItemRight" valign="bottom"><b>mPendingRemoval</b></td></tr>
+<tr class="memitem:a151b646a10ec46e718a668edd7e77ce6" id="r_a151b646a10ec46e718a668edd7e77ce6"><td class="memItemLeft" align="right" valign="top"><a id="a151b646a10ec46e718a668edd7e77ce6" name="a151b646a10ec46e718a668edd7e77ce6"></a>
+bool[size_t]&#160;</td><td class="memItemRight" valign="bottom"><b>mToBeRemoved</b></td></tr>
 <tr class="memitem:a615b9a63fb18dc29935e40a78ff297ac" id="r_a615b9a63fb18dc29935e40a78ff297ac"><td class="memItemLeft" align="right" valign="top"><a id="a615b9a63fb18dc29935e40a78ff297ac" name="a615b9a63fb18dc29935e40a78ff297ac"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>mReturnToMenu</b></td></tr>
+<tr class="memitem:afb6c8d8f858230e49c454a400cbb0f2e" id="r_afb6c8d8f858230e49c454a400cbb0f2e"><td class="memItemLeft" align="right" valign="top"><a id="afb6c8d8f858230e49c454a400cbb0f2e" name="afb6c8d8f858230e49c454a400cbb0f2e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>mGameOver</b></td></tr>
 <tr class="memitem:a5d2b2fb6c7ead222d65dae45e75a0317" id="r_a5d2b2fb6c7ead222d65dae45e75a0317"><td class="memItemLeft" align="right" valign="top"><a id="a5d2b2fb6c7ead222d65dae45e75a0317" name="a5d2b2fb6c7ead222d65dae45e75a0317"></a>
 Wave[]&#160;</td><td class="memItemRight" valign="bottom"><b>mWaves</b></td></tr>
 <tr class="memitem:a57d608ed889c84d153aa85b2350f05a7" id="r_a57d608ed889c84d153aa85b2350f05a7"><td class="memItemLeft" align="right" valign="top"><a id="a57d608ed889c84d153aa85b2350f05a7" name="a57d608ed889c84d153aa85b2350f05a7"></a>

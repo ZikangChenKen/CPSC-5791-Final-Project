@@ -32,6 +32,7 @@ var NAVTREEINDEX0 =
 "structutility_1_1gui_1_1_button.html":[0,0,6,0,0],
 "structutility_1_1palette_1_1_palette.html":[0,0,6,2,0],
 "structutility_1_1path_1_1_point.html":[0,0,6,3,0],
-"structutility_1_1resourcemanager_1_1_resource_manager.html":[0,0,6,4,0],
+"structutility_1_1resourcemanager_1_1_resource_manager.html":[0,0,6,4,1],
+"structutility_1_1resourcemanager_1_1_sound.html":[0,0,6,4,0],
 "structutility_1_1textrenderer_1_1_text_renderer.html":[0,0,6,5,0]
 };

@@ -26,6 +26,7 @@ var hierarchy =
       [ "scenes::gameplayscene::GameplayScene", "classscenes_1_1gameplayscene_1_1_gameplay_scene.html", null ]
     ] ],
     [ "editor::waveeditor::Segment", "structeditor_1_1waveeditor_1_1_segment.html", null ],
+    [ "utility::resourcemanager::Sound", "structutility_1_1resourcemanager_1_1_sound.html", null ],
     [ "utility::textrenderer::TextRenderer", "structutility_1_1textrenderer_1_1_text_renderer.html", null ],
     [ "utility::tilemap::Tilemap", "classutility_1_1tilemap_1_1_tilemap.html", null ],
     [ "canvas::tilemapcanvas::TilemapCanvas", "classcanvas_1_1tilemapcanvas_1_1_tilemap_canvas.html", [

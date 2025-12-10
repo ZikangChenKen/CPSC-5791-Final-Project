@@ -64,6 +64,7 @@ var annotated_dup =
         [ "Path", "classutility_1_1path_1_1_path.html", null ]
       ] ],
       [ "resourcemanager", null, [
+        [ "Sound", "structutility_1_1resourcemanager_1_1_sound.html", null ],
         [ "ResourceManager", "structutility_1_1resourcemanager_1_1_resource_manager.html", null ]
       ] ],
       [ "textrenderer", null, [

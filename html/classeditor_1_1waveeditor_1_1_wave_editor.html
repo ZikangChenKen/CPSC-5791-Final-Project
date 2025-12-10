@@ -115,6 +115,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>createAddSegmentButto
 void&#160;</td><td class="memItemRight" valign="bottom"><b>createModifyColorButtons</b> ()</td></tr>
 <tr class="memitem:a1ac5996feb038d92a6ef473d28a988c1" id="r_a1ac5996feb038d92a6ef473d28a988c1"><td class="memItemLeft" align="right" valign="top"><a id="a1ac5996feb038d92a6ef473d28a988c1" name="a1ac5996feb038d92a6ef473d28a988c1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>createModifyCountButtons</b> ()</td></tr>
+<tr class="memitem:ae870c58e9be960bcb44aebbe5b8d0e5f" id="r_ae870c58e9be960bcb44aebbe5b8d0e5f"><td class="memItemLeft" align="right" valign="top"><a id="ae870c58e9be960bcb44aebbe5b8d0e5f" name="ae870c58e9be960bcb44aebbe5b8d0e5f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>createHelpButton</b> ()</td></tr>
 <tr class="memitem:aeac2e9bf01f6333b058f32482de55bc4" id="r_aeac2e9bf01f6333b058f32482de55bc4"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeac2e9bf01f6333b058f32482de55bc4">handleInput</a> (SDL_Event event)</td></tr>
 <tr class="memitem:a2cc38d0826825af41eaa160fa8fab198" id="r_a2cc38d0826825af41eaa160fa8fab198"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cc38d0826825af41eaa160fa8fab198">update</a> ()</td></tr>
 <tr class="memitem:a6a7773106aada64c2192da04f274f8d1" id="r_a6a7773106aada64c2192da04f274f8d1"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a7773106aada64c2192da04f274f8d1">render</a> ()</td></tr>
@@ -138,8 +140,6 @@ string&#160;</td><td class="memItemRight" valign="bottom"><b>save</b> (string fi
 Public Attributes</h2></td></tr>
 <tr class="memitem:aa279006e4832825dda909fbf5b2b7bcf" id="r_aa279006e4832825dda909fbf5b2b7bcf"><td class="memItemLeft" align="right" valign="top"><a id="aa279006e4832825dda909fbf5b2b7bcf" name="aa279006e4832825dda909fbf5b2b7bcf"></a>
 const int&#160;</td><td class="memItemRight" valign="bottom"><b>mSegmentLimit</b> = 20</td></tr>
-<tr class="memitem:a155928a88a2b78b8f3136c7acdeffcf9" id="r_a155928a88a2b78b8f3136c7acdeffcf9"><td class="memItemLeft" align="right" valign="top"><a id="a155928a88a2b78b8f3136c7acdeffcf9" name="a155928a88a2b78b8f3136c7acdeffcf9"></a>
-<a class="el" href="structutility_1_1gui_1_1_button.html">Button</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>mButtons</b></td></tr>
 <tr class="memitem:a66b3c5c9e71f3f8feffa47cb1a4a0869" id="r_a66b3c5c9e71f3f8feffa47cb1a4a0869"><td class="memItemLeft" align="right" valign="top"><a id="a66b3c5c9e71f3f8feffa47cb1a4a0869" name="a66b3c5c9e71f3f8feffa47cb1a4a0869"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>mReturnToTileSelectorEditor</b></td></tr>
 <tr class="memitem:a513304f6a2eaa4b88280d9670b6f927a" id="r_a513304f6a2eaa4b88280d9670b6f927a"><td class="memItemLeft" align="right" valign="top"><a id="a513304f6a2eaa4b88280d9670b6f927a" name="a513304f6a2eaa4b88280d9670b6f927a"></a>
@@ -155,8 +155,44 @@ Scene&#160;</td><td class="memItemRight" valign="bottom"><b>mScene</b></td></tr>
 SDL_Renderer *&#160;</td><td class="memItemRight" valign="bottom"><b>mRenderer</b></td></tr>
 <tr class="memitem:af7dcd2d887a15252b5bc937eef22a2a5 inherit pub_attribs_classeditor_1_1editor_1_1_editor" id="r_af7dcd2d887a15252b5bc937eef22a2a5"><td class="memItemLeft" align="right" valign="top">
 SDL_FRect&#160;</td><td class="memItemRight" valign="bottom"><b>mRect</b></td></tr>
+<tr class="memitem:a54afac800b20558a6f4fdb4b9778df4a inherit pub_attribs_classeditor_1_1editor_1_1_editor" id="r_a54afac800b20558a6f4fdb4b9778df4a"><td class="memItemLeft" align="right" valign="top">
+<a class="el" href="structutility_1_1gui_1_1_button.html">Button</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>mButtons</b></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a13e83fa63d9071f4c753267c55ffb6ab" id="r_a13e83fa63d9071f4c753267c55ffb6ab"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13e83fa63d9071f4c753267c55ffb6ab">clickButton</a> (ref <a class="el" href="structutility_1_1gui_1_1_button.html">Button</a> button)</td></tr>
+<tr class="inherit_header pro_methods_classeditor_1_1editor_1_1_editor"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classeditor_1_1editor_1_1_editor')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="classeditor_1_1editor_1_1_editor.html">editor::editor::Editor</a></td></tr>
+<tr class="memitem:a541d5d1d01e24d0801ccfb177b2a5357 inherit pro_methods_classeditor_1_1editor_1_1_editor" id="r_a541d5d1d01e24d0801ccfb177b2a5357"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>handleMouseClick</b> (float mouseX, float mouseY)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a13e83fa63d9071f4c753267c55ffb6ab" name="a13e83fa63d9071f4c753267c55ffb6ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13e83fa63d9071f4c753267c55ffb6ab">&#9670;&#160;</a></span>clickButton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void editor::waveeditor::WaveEditor::clickButton </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="structutility_1_1gui_1_1_button.html">Button</a></td>          <td class="paramname"><span class="paramname"><em>button</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classeditor_1_1editor_1_1_editor.html">editor::editor::Editor</a>.</p>
+
+</div>
+</div>
 <a id="aeac2e9bf01f6333b058f32482de55bc4" name="aeac2e9bf01f6333b058f32482de55bc4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeac2e9bf01f6333b058f32482de55bc4">&#9670;&#160;</a></span>handleInput()</h2>
 
